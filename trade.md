@@ -2,7 +2,7 @@
 title: YAM Markets
 description: trade YAMs
 published: true
-date: 2020-08-13T21:12:56.841Z
+date: 2020-08-13T21:13:56.007Z
 tags: 
 editor: markdown
 ---
@@ -28,9 +28,9 @@ YAM Uniswap pool information: https://uniswap.info/token/0x0e2298e3b3390e3b945a5
 
 While it is currently safe to **trade** YAM on Uniswap, it is NOT SAFE to **provide liquidity** to YAM Uniswap pools.
 
-Some pools are not recognized by the [YAM rebaser contract](rebase), and therefore LPs providing liquidity in these pools are NOT guaranteed to receive their share of positive rebases.  This includes the YAM-ETH pool: https://uniswap.info/pair/0xc358001a71b3160b4b243d6e8c6f52579f82215e
+Some pools are not recognized by the [YAM rebaser contract](/rebase), and therefore LPs providing liquidity in these pools are NOT guaranteed to receive their share of positive rebases.  This includes the YAM-ETH pool: https://uniswap.info/pair/0xc358001a71b3160b4b243d6e8c6f52579f82215e
 
-Due to a problem with the [YAM rebaser contract](rebase), providing liquidity to the YAM-yCRV pool (YAM-yDAI+yUSDC+yUSDT+yTUSD Pair) is also **dangerous** and may result in loss of funds due to rebasing!
+Due to a problem with the [YAM rebaser contract](/rebase), providing liquidity to the YAM-yCRV pool (YAM-yDAI+yUSDC+yUSDT+yTUSD Pair) is also **dangerous** and may result in loss of funds due to rebasing!
 
 https://uniswap.info/pair/0x2c7a51a357d5739c5c74bf3c96816849d2c9f726
 
