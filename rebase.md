@@ -2,20 +2,20 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-08-13T20:55:09.209Z
+date: 2020-08-13T20:56:10.828Z
 tags: 
 editor: markdown
 ---
 
 # Supply Scaling Factor
 
-Just about everything in the YAM Protocol (under the hood) is denominated in "OG (uninflated) YAM supply" (OG Supply), which is 5,000,000 YAMs that were originally planned for stakedropping.
+Many values in the YAM Protocol (under the hood) are denominated in "OG (uninflated) YAM supply" (OG Supply), which is 5,000,000 YAMs that were originally planned for stakedropping.
 
 A variable called "scaling factor" in the YAM contract sets the value by which OG Supply is multiplied to get the YAM balance value that you see in wallets and UIs.  Scaling factor in the contract is x 10**-18:
 
 https://etherscan.io/token/0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16#readContract
 
-## Scaling Factor History
+# Scaling Factor History
 
 | Epoch | datetime                     | Scaling Factor       | Rebase TX                |
 |-------|------------------------------|----------------------|--------------------------|
