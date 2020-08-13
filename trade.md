@@ -2,7 +2,7 @@
 title: YAM Markets
 description: trade YAMs
 published: true
-date: 2020-08-13T21:13:56.007Z
+date: 2020-08-13T21:19:29.160Z
 tags: 
 editor: markdown
 ---
@@ -16,6 +16,10 @@ This is the YAM token: https://etherscan.io/token/0x0e2298E3B3390e3b945a5456fBf5
 The YAM token is an upgradeable proxy token, which is a permanent address that can be adjusted to point at a new implementation address that encodes new token logic.  The current YAM token implementation contract is stored in a variable called `implementation` in the YAM proxy contract.
 
 The current YAM token implementation contract: https://etherscan.io/address/0xa923af6d05993495257a872ec69dbbf01501eb0e
+
+YAM market dashboards:
+- https://www.coingecko.com/en/coins/yam
+- https://coinmarketcap.com/currencies/yam/
 
 # Uniswap
 
