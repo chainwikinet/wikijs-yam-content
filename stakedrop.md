@@ -2,7 +2,7 @@
 title: YAM Stake Farming
 description: stake stuff get YAMs
 published: true
-date: 2020-08-14T21:42:19.904Z
+date: 2020-08-14T21:44:34.219Z
 tags: 
 editor: markdown
 ---
@@ -13,7 +13,9 @@ This is also known as "Wave1 staking" or "Wave1 stakedrop".
 
 To participate, stake one of eight supported assets to receive a share of YAMs distributed in the first week after YAM genesis.
 
-Wave1 staking ends one week after YAM genesis at 19:00 UTC, August 18th, 2020.
+- Wave1 announcement: https://medium.com/@yamfinance/yam-finance-d0ad577250c7
+- Wave1 staking starts: 19:00 UTC, August 11th, 2020
+- Wave1 staking ends: 19:00 UTC, August 18th, 2020
 
 Wave1 staking can be managed in several places:
 
