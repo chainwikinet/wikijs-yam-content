@@ -2,7 +2,7 @@
 title: YAM Dashboards
 description: 
 published: true
-date: 2020-08-14T19:59:29.642Z
+date: 2020-08-14T19:59:46.609Z
 tags: 
 editor: markdown
 ---
@@ -31,4 +31,4 @@ Tools created by other developers to monitor and manage YAM:
 - YAMDelegator (gov proxy): https://etherscan.io/address/0x0e2298e3b3390e3b945a5456fbf59ecc3f55da16
 - YamDelegate (current gov): https://etherscan.io/address/0xa923af6d05993495257a872ec69dbbf01501eb0e
 - Official YAM:yCRV Uniswap pool: https://etherscan.io/address/0x2c7a51a357d5739c5c74bf3c96816849d2c9f726#code
-- see [Markets](/markets) for more market-related stats dashboards
+- see [Markets](/trade) for more market-related stats dashboards
