@@ -2,7 +2,7 @@
 title: YAM Stake Farming
 description: stake stuff get YAMs
 published: true
-date: 2020-08-14T21:41:14.356Z
+date: 2020-08-14T21:41:58.800Z
 tags: 
 editor: markdown
 ---
