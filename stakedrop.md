@@ -2,7 +2,7 @@
 title: YAM Stake Farming
 description: stake stuff get YAMs
 published: true
-date: 2020-08-14T21:54:09.882Z
+date: 2020-08-14T21:55:46.591Z
 tags: 
 editor: markdown
 ---
@@ -27,16 +27,16 @@ Wave1 staking can be managed in several places:
 {.is-info}
 
 
-| Asset    | `Yieldfarming.info`        | Etherscan                                                    |
-|----------|----------------------------|--------------------------------------------------------------|
-| WETH     | [WETH on YF.info][yf-weth] | [0x587A07cE5c265A38Dd6d42def1566BA73eeb06F5][etherscan-pool-weth] |
-| MKR      | [MKR on YF.info][yf-mkr]   | [0xcFe1E539AcB2D489a651cA011a6eB93d32f97E23][etherscan-pool-mkr]  |
-| COMP     | [COMP on YF.info][yf-comp] | [0x8538E5910c6F80419CD3170c26073Ff238048c9E][etherscan-pool-comp] |
-| LEND     | [LEND on YF.info][yf-lend] | [0x6009A344C7F993B16EBa2c673fefd2e07f9be5FD][etherscan-pool-lend] |
-| SNX      | [SNX on YF.info][yf-snx]   | [0x6c3FC1FFDb14D92394f40eeC91D9Ce8B807f132D][etherscan-pool-snx]  |
-| LINK     | [LINK on YF.info][yf-link] | [0xFDC28897A1E32B595f1f4f1D3aE0Df93B1eee452][etherscan-pool-link] |
-| YFI      | [YFI on YF.info][yf-yfi]   | [0xc5B6488c7D5BeD173B76Bd5DCA712f45fB9EaEaB][etherscan-pool-yfi]  |
-| AMPL:Uni | [AMPL on YF.info][yf-ampl] | [0x9EbB67687FEE2d265D7b824714DF13622D90E663][etherscan-pool-ampl] |
+| Asset                      | `Yieldfarming.info`        | Etherscan                                                         |
+|----------------------------|----------------------------|-------------------------------------------------------------------|
+| [WETH][etherscan-weth]     | [WETH on YF.info][yf-weth] | [0x587A07cE5c265A38Dd6d42def1566BA73eeb06F5][etherscan-pool-weth] |
+| [MKR][etherscan-mkr]       | [MKR on YF.info][yf-mkr]   | [0xcFe1E539AcB2D489a651cA011a6eB93d32f97E23][etherscan-pool-mkr]  |
+| [COMP][etherscan-comp]     | [COMP on YF.info][yf-comp] | [0x8538E5910c6F80419CD3170c26073Ff238048c9E][etherscan-pool-comp] |
+| [LEND][etherscan-lend]     | [LEND on YF.info][yf-lend] | [0x6009A344C7F993B16EBa2c673fefd2e07f9be5FD][etherscan-pool-lend] |
+| [SNX][etherscan-snx]       | [SNX on YF.info][yf-snx]   | [0x6c3FC1FFDb14D92394f40eeC91D9Ce8B807f132D][etherscan-pool-snx]  |
+| [LINK][etherscan-link]     | [LINK on YF.info][yf-link] | [0xFDC28897A1E32B595f1f4f1D3aE0Df93B1eee452][etherscan-pool-link] |
+| [YFI][etherscan-yfi]       | [YFI on YF.info][yf-yfi]   | [0xc5B6488c7D5BeD173B76Bd5DCA712f45fB9EaEaB][etherscan-pool-yfi]  |
+| [AMPL:Uni][etherscan-ampl] | [AMPL on YF.info][yf-ampl] | [0x9EbB67687FEE2d265D7b824714DF13622D90E663][etherscan-pool-ampl] |
 
 
 [yf-weth]: https://yieldfarming.info/yam/weth
