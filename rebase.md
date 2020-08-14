@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-08-14T08:13:19.442Z
+date: 2020-08-14T19:36:10.472Z
 tags: 
 editor: markdown
 ---
@@ -30,6 +30,8 @@ In the contract, this `yamScalingFactor` variable is scaled by x 10**-18: https:
 In YAM governance, values such as `votes` are denominated in OG Supply instead of in wallet balance.
 
 # Scaling Factor History
+
+YAM rebases happen every 12 hours: 8AM and 8PM UTC.  At this time, the `rebase` function on the `YAMRebaser` contract becomes callable by anyone: https://etherscan.io/address/0x649714bc2fffcb1e65c689b49a10216d4960833d
 
 | Epoch | datetime                     | Scaling Factor       | Effect On Balances | Rebase TX                |
 |-------|------------------------------|----------------------|--------------------|--------------------------|
