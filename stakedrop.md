@@ -2,7 +2,7 @@
 title: YAM Stake Farming
 description: stake stuff get YAMs
 published: true
-date: 2020-08-14T21:48:26.586Z
+date: 2020-08-14T21:49:43.970Z
 tags: 
 editor: markdown
 ---
@@ -46,7 +46,7 @@ Wave1 staking can be managed in several places:
 [yf-snx]: https://yieldfarming.info/yam/snx
 [yf-link]: https://yieldfarming.info/yam/link
 [yf-yfi]: https://yieldfarming.info/yam/yfi
-[yf-ycrv]: https://yieldfarming.info/yam/ycrv
+[yf-ampl]: https://yieldfarming.info/yam/ampl/
 
 [etherscan-weth]: https://etherscan.io/address/0x587A07cE5c265A38Dd6d42def1566BA73eeb06F5#writeContract
 [etherscan-mkr]: https://etherscan.io/address/0xcFe1E539AcB2D489a651cA011a6eB93d32f97E23#writeContract
