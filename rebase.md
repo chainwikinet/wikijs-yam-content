@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-08-14T22:22:02.237Z
+date: 2020-08-14T22:24:05.504Z
 tags: 
 editor: markdown
 ---
@@ -55,7 +55,7 @@ YAM rebases happen every 12 hours: 8AM and 8PM UTC.  At this time, the `rebase` 
 
 
 
-# How Rebalances Are Calculated
+# How Rebases Are Calculated
 
 The best way to understand the `rebase` calculations is to read the `rebase` code in the `YAMRebaser` contract: [0x649714bc2fffcb1e65c689b49a10216d4960833d][etherscan-rebaser]
 
