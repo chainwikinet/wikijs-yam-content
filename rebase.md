@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-08-14T22:24:05.504Z
+date: 2020-08-14T22:35:32.199Z
 tags: 
 editor: markdown
 ---
@@ -31,7 +31,11 @@ In YAM governance, values such as `votes` are denominated in OG supply instead o
 
 # Scaling Factor History
 
-YAM rebases happen every 12 hours: 8AM and 8PM UTC.  At this time, the `rebase` function on the `YAMRebaser` contract becomes callable by anyone: https://etherscan.io/address/0x649714bc2fffcb1e65c689b49a10216d4960833d
+YAM rebases happen every 12 hours: 8AM and 8PM UTC.  At this time, the `rebase` function on the `YAMRebaser` contract becomes callable by anyone.
+
+> You—yes, YOU—can call the `rebase` function, [but only the first call mined after it becomes active will succeed](https://etherscan.io/address/0x649714bc2fffcb1e65c689b49a10216d4960833d
+).
+{.is-info}
 
 | Epoch | datetime                     | Scaling Factor       | Effect On Balances | Rebase TX                |
 |-------|------------------------------|----------------------|--------------------|--------------------------|
@@ -61,7 +65,7 @@ The best way to understand the `rebase` calculations is to read the `rebase` cod
 
 Let's look at examples from this code to determine how to calculate how much YAM supply—and therefore wallets and contract balances—will change when a `rebase` occurs.  (Examples here are for if a `rebase` would have been triggered at 2020-08-14 13:45 Pacific Time)
 
-Docstring description of the rebase function:
+Docstring description of the `rebase` function:
 ```
 * @dev The supply adjustment equals (_totalSupply * DeviationFromTargetRate) / rebaseLag
 * Where DeviationFromTargetRate is (MarketOracleRate - targetRate) / targetRate
