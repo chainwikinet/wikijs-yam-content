@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-08-14T01:02:54.441Z
+date: 2020-08-14T08:13:19.442Z
 tags: 
 editor: markdown
 ---
@@ -36,7 +36,7 @@ In YAM governance, values such as `votes` are denominated in OG Supply instead o
 | 1     | Aug-12-2020 08:00:08 PM +UTC | 9307350094489455602  | increase ~9.3x     | [0x7b9017ec...][rebase1] |
 | 2     | Aug-13-2020 08:00:18 AM +UTC | 18780439270761214101 | increase ~2.0x     | [0x32735e9e...][rebase2] |
 | 3     | Aug-13-2020 08:00:24 PM +UTC | 17889705531675302598 | decrease ~5%       | [0x527b8a97...][rebase3] |
-| 4     | Aug-14-2020 08:00:00 AM +UTC | ...                  | ...                | [...][rebase4]           |
+| 4     | Aug-14-2020 08:07:53 AM +UTC | 16980295531490104432 | decrease ~5%       | [0xae58745c...][rebase4]           |
 | 5     | Aug-14-2020 08:00:00 PM +UTC | ...                  | ...                | [...][rebase5]           |
 | 6     | Aug-15-2020 08:00:00 AM +UTC | ...                  | ...                | [...][rebase6]           |
 | 7     | Aug-15-2020 08:00:00 PM +UTC | ...                  | ...                | [...][rebase7]           |
@@ -45,7 +45,7 @@ In YAM governance, values such as `votes` are denominated in OG Supply instead o
 [rebase1]: https://etherscan.io/tx/0x7b9017ec92b0200455e5269380195fbecfbf91c8acda30985cc1dc413d215076
 [rebase2]: https://etherscan.io/tx/0x32735e9e9aac51739b5725a225be6c7a3851f422be986d0f4f4bc0ec475ee286
 [rebase3]: https://etherscan.io/tx/0x527b8a970a53bd46d99d758aa16ff9c2218513b46647a7cfbff72f8a22f8aedc
-[rebase4]: #
+[rebase4]: https://etherscan.io/tx/0xae58745c11679894bdcbd5b977e864b669148f61b73009f72551c32a07ba9466
 [rebase5]: #
 [rebase6]: #
 [rebase7]: #
