@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-08-14T20:07:36.876Z
+date: 2020-08-14T22:22:02.237Z
 tags: 
 editor: markdown
 ---
@@ -23,11 +23,11 @@ Rebasing works like this:
 
 The balance of YAMs in wallets and contracts is adjusted in the rebasing process by changing a variable called `yamScalingFactor` in the YAM contract.
 
-`yamScalingFactor` is the value by which "OG YAM supply" (5,000,000 YAM originally planned for stakedropping) is multiplied in order to get the YAM balance value that you see in wallets, contracts, and other UIs.  
+`yamScalingFactor` is the value by which "OG YAM supply" (5,000,000 YAM originally planned for stakedropping, aka `balanceOfUnderlying` in the YAM contract) is multiplied in order to get the YAM balance value that is displayed in wallets, contracts, and other UIs.  
 
 In the contract, this `yamScalingFactor` variable is scaled by x 10**-18: https://etherscan.io/token/0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16#readContract
 
-In YAM governance, values such as `votes` are denominated in OG Supply instead of in wallet balance.
+In YAM governance, values such as `votes` are denominated in OG supply instead of in wallet balance.
 
 # Scaling Factor History
 
@@ -52,3 +52,50 @@ YAM rebases happen every 12 hours: 8AM and 8PM UTC.  At this time, the `rebase` 
 [rebase6]: #
 [rebase7]: #
 [rebase8]: #
+
+
+
+# How Rebalances Are Calculated
+
+The best way to understand the `rebase` calculations is to read the `rebase` code in the `YAMRebaser` contract: [0x649714bc2fffcb1e65c689b49a10216d4960833d][etherscan-rebaser]
+
+Let's look at examples from this code to determine how to calculate how much YAM supply—and therefore wallets and contract balances—will change when a `rebase` occurs.  (Examples here are for if a `rebase` would have been triggered at 2020-08-14 13:45 Pacific Time)
+
+Docstring description of the rebase function:
+```
+* @dev The supply adjustment equals (_totalSupply * DeviationFromTargetRate) / rebaseLag
+* Where DeviationFromTargetRate is (MarketOracleRate - targetRate) / targetRate
+* and targetRate is 1e18
+```
+
+- `targetRate` is the target price of YAMs.  This is $1, expressed as `1000000000000000000` (1x10^18) in `21. targetRate` in the [YAMRebaser contract][etherscan-rebaser].
+- `MarketOracleRate` is the YAM TWAP (time-weighted average price) retrieved from the Uniswap YAM:yCRV pool; the current value is displayed by `4. get CurrentTWAP` in the [YAMRebaser contract][etherscan-rebaser].
+- `rebaseLag` is 10, which you can see in `14. rebaseLag` in the [YAMRebaser contract][etherscan-rebaser].
+
+At the time of writing this example, this is how the math worked.  First, we calculate `DeviationFromTargetRate` using `targetRate` and `MarketOracleRate`:
+
+```
+ 559423596560698595 MarketOracleRate (current TWAP from Uniswap)
+1000000000000000000 targetRate (target price of $1)
+
+DeviationFromTargetRate = (MarketOracleRate - targetRate) / targetRate
+DeviationFromTargetRate = (559423596560698595 - 1000000000000000000) / 1000000000000000000
+                        = -0.4405764034393014
+```
+
+Now we calculate the change in supply due to the rebase using `deviationFromTargetPrice` and `rebaseLag`:
+
+```
+
+change in supply = _totalSupply * DeviationFromTargetRate) / rebaseLag
+change in supply = _totalsupply * (-0.4405764034393014)    / (10)
+change in supply = _totalSupply * (-0.04405764034393014)
+                 = _totalSupply * -4.4%
+```
+
+So if the `rebase` happened at that moment, the total supply—and all YAM balances everywhere in wallets and contracts—would decrease by about 4.4%.
+
+
+
+[etherscan-rebaser]: https://etherscan.io/address/0x649714bc2fffcb1e65c689b49a10216d4960833d#readContract
+
