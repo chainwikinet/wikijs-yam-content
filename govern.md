@@ -2,7 +2,7 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-08-15T20:41:05.178Z
+date: 2020-08-15T20:41:19.186Z
 tags: 
 editor: markdown
 ---
@@ -20,7 +20,7 @@ When an issue was found with the [YAM rebasing](/rebase) code, an effort was mad
 Sufficient votes WERE delegated and the proposal WAS [submitted][etherscan-propsubmission] and [voted on][etherscan-propvote], but unfortunately [the proposal was not able to shut down the rebaser](https://medium.com/@yamfinance/yam-post-rescue-attempt-update-c9c90c05953f) due to an unforeseen interaction between the rebaser and the governance module.  As such, the next rebase happened as scheduled and vast numbers of YAMs were created and transferred into the YAM reserve contract ([0xC53195Bbad57105cc9a4DF752121AfD9C15FBd8f][etherscan-reserve]), permanently breaking YAM governance.
 
 
-## YAM Reboot?
+# YAM Reboot?
 
 The plan now is to [reboot YAM with a new set of tested and audited contracts](https://medium.com/@yamfinance/yam-migration-plan-dc72ad49aca6).  Existing YAM holders can exchange their current YAM for YAM under the rebooted system.
 
