@@ -2,7 +2,7 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-08-15T20:51:07.843Z
+date: 2020-08-15T21:15:06.916Z
 tags: 
 editor: markdown
 ---
