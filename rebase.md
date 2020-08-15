@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-08-15T17:53:31.948Z
+date: 2020-08-15T20:04:30.565Z
 tags: 
 editor: markdown
 ---
@@ -45,7 +45,7 @@ YAM rebases happen every 12 hours: 8AM and 8PM UTC.  At this time, the `rebase` 
 | 4     | Aug-14-2020 08:07:53 AM +UTC | 16980295531490104432 | decrease ~5%       | [0xae58745c...][rebase4]           |
 | 5     | Aug-14-2020 08:04:52 PM +UTC | 16411751552705509551 | decrease ~3.5%     | [0x613d23a0...][rebase5]           |
 | 6     | Aug-15-2020 08:01:45 AM +UTC | 15985697655747854180 | decrease ~2.5%     | [0x4c64faec...][rebase6]           |
-| 7     | Aug-15-2020 08:00:00 PM +UTC | ...                  | ...                | [...][rebase7]           |
+| 7     | Aug-15-2020 08:00:09 PM +UTC | 15356704803425008450 | decrease ~4%       | [0xabe13f7f...][rebase7]           |
 | 8     | Aug-16-2020 08:00:00 AM +UTC | ...                  | ...                | [...][rebase8]           |
 
 [rebase1]: https://etherscan.io/tx/0x7b9017ec92b0200455e5269380195fbecfbf91c8acda30985cc1dc413d215076
@@ -54,7 +54,7 @@ YAM rebases happen every 12 hours: 8AM and 8PM UTC.  At this time, the `rebase` 
 [rebase4]: https://etherscan.io/tx/0xae58745c11679894bdcbd5b977e864b669148f61b73009f72551c32a07ba9466
 [rebase5]: https://etherscan.io/tx/0x613d23a0315b068ac183376fe786188c4c65972970f7d3cdb490eba95eae8549
 [rebase6]: https://etherscan.io/tx/0x4c64faeca69106807930badf7801b3db5ffbcbf3212d076bea2b7b1a048eb83b
-[rebase7]: #
+[rebase7]: https://etherscan.io/tx/0xabe13f7f9a27370c07f1eb711af4b37442df4d4bf0234febefcc5a4c79d043ec
 [rebase8]: #
 
 
