@@ -2,7 +2,7 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-08-15T20:41:19.186Z
+date: 2020-08-15T20:51:07.843Z
 tags: 
 editor: markdown
 ---
@@ -17,7 +17,16 @@ To submit a proposal to improve the YAM protocol, open an issue on the YIP repos
 
 When an issue was found with the [YAM rebasing](/rebase) code, an effort was made to use a YAM governance vote to create an opportunity for YAM v1 to be saved.  In order to perform the governance vote, [the YAM launch team asked all YAM holders to delegate their YAM votes](https://medium.com/@yamfinance/save-yam-245598d81cec) to an address controlled by the launch team ([0x683A78bA1f6b25E29fbBC9Cd1BFA29A51520De84][etherscan-deployer]).  If sufficient votes could be delegated by a deadline a few hours in the future, then the hope was that the YAM launch team could submit and approve a proposal to shut off the faulty rebaser.
 
-Sufficient votes WERE delegated and the proposal WAS [submitted][etherscan-propsubmission] and [voted on][etherscan-propvote], but unfortunately [the proposal was not able to shut down the rebaser](https://medium.com/@yamfinance/yam-post-rescue-attempt-update-c9c90c05953f) due to an unforeseen interaction between the rebaser and the governance module.  As such, the next rebase happened as scheduled and vast numbers of YAMs were created and transferred into the YAM reserve contract ([0xC53195Bbad57105cc9a4DF752121AfD9C15FBd8f][etherscan-reserve]), permanently breaking YAM governance.
+## Vote Delegation Success
+
+Sufficient votes WERE delegated and the proposal WAS [submitted][etherscan-propsubmission] and [voted on][etherscan-propvote]:
+
+![yam-vote-delegation-time.png](/yam-vote-delegation-time.png)
+*Vote delegation over time. 160,000 votes were needed by the proposal submission deadline, represented by the top right-hand corner of the graph. Votes are denominated in OG YAMs (uninflated by the rebaser), so at the time 1 vote = ~16 YAMs. [source data][votegraph-src]*
+
+## Fix Failure
+
+Unfortunately [the proposal was not able to shut down the rebaser](https://medium.com/@yamfinance/yam-post-rescue-attempt-update-c9c90c05953f) due to an unforeseen interaction between the rebaser and the governance module.  As such, the next rebase happened as scheduled and vast numbers of YAMs were created and transferred into the YAM reserve contract ([0xC53195Bbad57105cc9a4DF752121AfD9C15FBd8f][etherscan-reserve]), permanently breaking YAM governance.
 
 
 # YAM Reboot?
@@ -44,3 +53,4 @@ To aid in this discussion, YAM community member `flygoing` wrote a script that c
 [etherscan-propsubmission]: https://etherscan.io/tx/0x1d64875b24732bc2e8880cd0870ea8e301ddde683ce81fea418e9ab4feea90bb
 [etherscan-propvote]: https://etherscan.io/tx/0x9b0fabfdf6f3efde13ef2318c6a416c37b88c9026ca324a54105dc938e9e1f42
 
+[votegraph-src]: https://docs.google.com/spreadsheets/d/1q9crCgp3mkthSAJ5rD_OphLse8hRRpxR7XwrojXqdFQ/
