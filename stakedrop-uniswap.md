@@ -2,7 +2,7 @@
 title: YAM Uniswap Farming
 description: provide liquidity, stake, get YAMs
 published: true
-date: 2020-08-16T03:18:26.425Z
+date: 2020-08-16T21:01:15.685Z
 tags: 
 editor: markdown
 ---
@@ -33,7 +33,7 @@ Two-thirds of the YAM supply [will be distributed via this stakedrop](https://me
 
 # How Positive Rebases Impact LPs
 
-Negative `rebase` occurs when the YAM price, according to the Uniswap TWAP oracle for the YAM:yCRV pool, is above $1.  Positive `rebase` occurs when the YAM price, according to the Uniswap TWAP oracle for the YAM:yCRV pool, is above $1.  Read the [rebase](/rebase) article for more context on rebasing.
+Negative `rebase` occurs when the YAM price, according to the Uniswap TWAP oracle for the YAM:yCRV pool, is below $1.  Positive `rebase` occurs when the YAM price, according to the Uniswap TWAP oracle for the YAM:yCRV pool, is above $1.  Read the [rebase](/rebase) article for more context on rebasing.
 
 A negative `rebase` has no impact on Uniswap LPs.
 
