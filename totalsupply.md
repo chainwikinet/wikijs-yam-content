@@ -2,7 +2,7 @@
 title: YAM Total Supply
 description: how many YAMs are there
 published: true
-date: 2020-08-16T22:36:58.149Z
+date: 2020-08-16T22:37:17.468Z
 tags: 
 editor: markdown
 ---
@@ -35,7 +35,7 @@ OG YAM distribution plan (described in https://medium.com/@yamfinance/yam-financ
 
 You'll get the same **proportion** of total YAMs that you currently have now.  If you currently have 1% of YAM, you will have 1% of YAMv2.  Rebases do not change this, and when you bought the YAMs doesn't matter—all YAM is eligible for migration to YAMv2.
 
-For instance:
+For example:
 
 - if you currently have 1,000 YAM
 - and the maximum supply of YAMv2 is 5,000,000
