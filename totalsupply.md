@@ -2,7 +2,7 @@
 title: YAM Total Supply
 description: how many YAMs are there
 published: true
-date: 2020-08-16T22:15:36.932Z
+date: 2020-08-16T22:16:10.045Z
 tags: 
 editor: markdown
 ---
@@ -30,6 +30,12 @@ OG YAM distribution plan (described in https://medium.com/@yamfinance/yam-financ
    ...... continues forever, halving each week
 ```
 
+
+# How Many YAMv2 will I get?
+
+You'll get the same **proportion** of total YAMs that you currently have now.  Rebases do not change this.
+
+
 # How many YAMs are there right this second?
 
 As of right now (2020-08-16 22:00 GMT):
@@ -48,10 +54,3 @@ This thread provides an overview of how to calculate supply using the various va
 To transform OG YAM balance into current YAM balances, get `yamsScalingFactor` and `base` from https://etherscan.io/address/0x0e2298e3b3390e3b945a5456fbf59ecc3f55da16#readContract
 
 Multiply OG YAM balance by `yamsScalingFactor` and then divide by `base`.
-
-# How Many YAMv2 will I get?
-
-You'll get the same **proportion** of total YAMs that you currently have now.  Rebases do not change this.
-
-
-
