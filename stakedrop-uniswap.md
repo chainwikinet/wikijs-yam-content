@@ -2,7 +2,7 @@
 title: YAM Uniswap Farming
 description: provide liquidity, stake, get YAMs
 published: true
-date: 2020-08-16T03:11:23.605Z
+date: 2020-08-16T03:18:26.425Z
 tags: 
 editor: markdown
 ---
@@ -24,6 +24,12 @@ Manage your :rainbow:`Eternal Lands` deposit:
 
 > Staking from Etherscan requires first setting an allowance from the staked token to the corresponding stake pool
 {.is-info}
+
+
+# Uniswap Stakedrop Rewards
+
+Two-thirds of the YAM supply [will be distributed via this stakedrop](https://medium.com/@yamfinance/yam-finance-d0ad577250c7).  This is equivalent to 3,000,000 of the 5,000,000 "OG YAMs" (that is, YAM that has not been impacted by [rebasing](/rebase)).  In the first week, 1/3rd of the YAM supply will be distributed in this way; the stakedrop continues forever, but each qeek the reward will decrease by an additional 50%.
+
 
 # How Positive Rebases Impact LPs
 
