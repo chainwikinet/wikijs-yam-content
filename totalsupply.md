@@ -2,7 +2,7 @@
 title: YAM Total Supply
 description: how many YAMs are there
 published: true
-date: 2020-08-16T22:13:49.522Z
+date: 2020-08-16T22:15:36.932Z
 tags: 
 editor: markdown
 ---
@@ -36,7 +36,7 @@ As of right now (2020-08-16 22:00 GMT):
 - maximum supply is approximately 73,400,000 YAMS
 - approximately 51,500,000 YAMs have been distributed
 
-To get the current maximum supply, multiple 5,000,000 by [the most recent rebase scaling factor](/rebase).
+To get the current maximum supply, multiple 5,000,000 by [the most recent rebase scaling factor](/rebase) (the number in the column labeled `= 1 OG YAM`).
 
 
 # How to convert from YAM balance to OG YAMs?
