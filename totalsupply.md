@@ -2,7 +2,7 @@
 title: YAM Total Supply
 description: how many YAMs are there
 published: true
-date: 2020-08-16T22:12:48.044Z
+date: 2020-08-16T22:13:49.522Z
 tags: 
 editor: markdown
 ---
@@ -48,3 +48,10 @@ This thread provides an overview of how to calculate supply using the various va
 To transform OG YAM balance into current YAM balances, get `yamsScalingFactor` and `base` from https://etherscan.io/address/0x0e2298e3b3390e3b945a5456fbf59ecc3f55da16#readContract
 
 Multiply OG YAM balance by `yamsScalingFactor` and then divide by `base`.
+
+# How Many YAMv2 will I get?
+
+You'll get the same **proportion** of total YAMs that you currently have now.  Rebases do not change this.
+
+
+
