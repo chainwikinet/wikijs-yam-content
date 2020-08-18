@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-08-18T20:14:52.695Z
+date: 2020-08-18T20:54:59.008Z
 tags: 
 editor: markdown
 ---
@@ -13,11 +13,13 @@ YAM changes the balance of everyone's wallets to try to reach a price of $1.  Th
 
 Rebasing works like this:
 
-1. if YAM is selling for more than $1, increase the number of YAMs to make YAM more common.  The balance of YAMs in all wallets and contracts will increase.
+1. if YAM is selling for more than $1.05, increase the number of YAMs to make YAM more common.  The balance of YAMs in all wallets and contracts will increase.
 
-2. if YAM is selling for less than $1, decrease the number of YAMs to make YAM more rare.  The balance of YAMs in all wallets and contracts will decrease.
+2. if YAM is selling for less than $0.95, decrease the number of YAMs to make YAM more rare.  The balance of YAMs in all wallets and contracts will decrease.
 
-3. if YAM is selling for approximately $1, keep the YAM balances the same.
+3. if YAM is selling for approximately $1 ($0.95-$1.05), keep the YAM balances the same.
+
+The deviation threshold, currently at 5%, is defined in `YAMRebaser` and could be changed in the future by a tokenholder vote: https://etherscan.io/address/0x649714bc2fffcb1e65c689b49a10216d4960833d#readContract
 
 # Supply Scaling Factor
 
