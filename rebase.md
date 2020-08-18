@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-08-17T20:10:22.674Z
+date: 2020-08-18T20:14:52.695Z
 tags: 
 editor: markdown
 ---
@@ -50,8 +50,17 @@ YAM rebases happen every 12 hours: 8AM and 8PM UTC.  At this time, the `rebase` 
 | 8     | Aug-16-2020 08:03:42 AM +UTC | 14681935211341898592 | 14.7 YAM   | -4.5%  | [0x3cbae78c...][rebase8] |
 | 9     | Aug-16-2020 08:04:03 PM +UTC | 13845372019807670051 | 13.8 YAM   | -5.7%  | [0xab9f2f2e...][rebase9] |
 | 10    | Aug-17-2020 08:03:25 AM +UTC | 12955002278062718827 | 13.0 YAM   | -6.5%  | [0x71af3da8...][rebase10] |
-| 11    | Aug-17-2020 08:00:00 PM +UTC | 12193451105048975899 | 12.1 YAM   | -6.9%    | [0x3379bb1d...][rebase11] |
-| 12    | Aug-18-2020 08:00:00 AM +UTC | TBD | TBD   | TBD  | [...][rebase12] |
+| 11    | Aug-17-2020 08:00:00 PM +UTC | 12193451105048975899 | 12.1 YAM   | -6.9%  | [0x3379bb1d...][rebase11] |
+| 12    | Aug-18-2020 08:00:12 AM +UTC | 11589589179551895942 | 11.6 YAM   | -5%    | [0xb0aa0a63...][rebase12] |
+| 13    | Aug-18-2020 08:00:44 PM +UTC | 11123071445415645438 | 11.1 YAM   | -4%    | [0x4a24406e...][rebase13] |
+| 14    | Aug-19-2020 08:00:00 AM +UTC | TBD | TBD   | TBD  | [...][rebase14] |
+| 15    | Aug-19-2020 08:00:00 PM +UTC | TBD | TBD   | TBD  | [...][rebase15] |
+| 16    | Aug-20-2020 08:00:00 AM +UTC | TBD | TBD   | TBD  | [...][rebase16] |
+| 17    | Aug-20-2020 08:00:00 PM +UTC | TBD | TBD   | TBD  | [...][rebase17] |
+| 18    | Aug-21-2020 08:00:00 AM +UTC | TBD | TBD   | TBD  | [...][rebase18] |
+| 19    | Aug-21-2020 08:00:00 PM +UTC | TBD | TBD   | TBD  | [...][rebase19] |
+| 20    | Aug-22-2020 08:00:00 AM +UTC | TBD | TBD   | TBD  | [...][rebase20] |
+
 
 
 [rebase1]: https://etherscan.io/tx/0x7b9017ec92b0200455e5269380195fbecfbf91c8acda30985cc1dc413d215076
@@ -65,7 +74,16 @@ YAM rebases happen every 12 hours: 8AM and 8PM UTC.  At this time, the `rebase` 
 [rebase9]: https://etherscan.io/tx/0xab9f2f2e188fc4cd8d0755c2eedc77bb7aab705f5493704576b802617fc583b0
 [rebase10]: https://etherscan.io/tx/0x71af3da8a8ca503e1ae68dc708772be623024213572192b7a192504cfdfea620
 [rebase11]: https://etherscan.io/tx/0x3379bb1d2fab33b1391f78fac38103de2554da96768cc0046e434a6f13d74262
-[rebase12]: #
+[rebase12]: https://etherscan.io/tx/0xb0aa0a63bcc994b0f46bdd926dc2062318792679df8b46aae891877899d058b7
+[rebase13]: https://etherscan.io/tx/0x4a24406e69821bd2478b4410a151a4f930402746e9efb3548031ba3e0f998885
+[rebase14]: #
+[rebase15]: #
+[rebase16]: #
+[rebase17]: #
+[rebase18]: #
+[rebase19]: #
+[rebase20]: #
+
 
 
 
