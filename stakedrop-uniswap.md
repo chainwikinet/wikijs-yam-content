@@ -2,11 +2,13 @@
 title: YAM Uniswap Farming
 description: provide liquidity, stake, get YAMs
 published: true
-date: 2020-08-16T21:01:15.685Z
+date: 2020-08-19T23:38:48.208Z
 tags: 
 editor: markdown
 ---
 
+> YAMv2 migration has begun.  [Migrate your YAM tokens ASAP!](/migration)
+{.is-danger}
 
 # Stake Uniswap LP Shares
 
