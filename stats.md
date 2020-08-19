@@ -1,8 +1,8 @@
 ---
 title: YAM Dashboards
-description: 
+description: tools for managing your YAM farms
 published: true
-date: 2020-08-19T23:38:33.321Z
+date: 2020-08-19T23:43:21.385Z
 tags: 
 editor: markdown
 ---
