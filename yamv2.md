@@ -1,8 +1,8 @@
 ---
 title: YAM Reboot
-description: 
+description: YAMv1 → YAMv2 migration
 published: true
-date: 2020-08-19T23:41:49.570Z
+date: 2020-08-19T23:42:49.537Z
 tags: 
 editor: markdown
 ---
