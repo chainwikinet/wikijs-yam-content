@@ -2,28 +2,35 @@
 title: YAM Stake Farming
 description: stake stuff get YAMs
 published: true
-date: 2020-08-14T21:55:46.591Z
+date: 2020-08-19T23:35:57.005Z
 tags: 
 editor: markdown
 ---
 
+
+> YAMv2 migration has begun.  [Migrate your YAM tokens ASAP!](/migration)
+{.is-danger}
+
 # Stake Tokens, Earn YAM
 
-This is also known as "Wave1 staking" or "Wave1 stakedrop".
+> Wave1 staking for YAMv1 has ended. The following is included as historical information
+{.is-warning}
 
-To participate, stake one of eight supported assets to receive a share of YAMs distributed in the first week after YAM genesis.
+This was also known as "Wave1 staking" or "Wave1 stakedrop".
+
+To participate, users staked one of eight supported assets to receive a share of YAMs distributed in the first week after YAM genesis.
 
 - Wave1 announcement: https://medium.com/@yamfinance/yam-finance-d0ad577250c7
 - Wave1 staking starts: 19:00 UTC, August 11th, 2020
 - Wave1 staking ends: 19:00 UTC, August 18th, 2020
 
-Wave1 staking can be managed in several places:
+Wave1 staking could be managed in several places:
 
 - Official launch site: https://yam.finance/farms
 - Independent third-party sites
 - Directly on Etherscan contracts
 
-> Staking from Etherscan requires first setting an allowance from the staked token to the corresponding stake pool
+> Staking from Etherscan required first setting an allowance from the staked token to the corresponding stake pool
 {.is-info}
 
 
