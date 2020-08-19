@@ -1,8 +1,8 @@
 ---
 title: YAM Total Supply
-description: how many YAMs are there
+description: how many YAMs are there anyway
 published: true
-date: 2020-08-19T23:37:22.853Z
+date: 2020-08-19T23:37:45.661Z
 tags: 
 editor: markdown
 ---
