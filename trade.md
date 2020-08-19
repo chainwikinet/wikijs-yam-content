@@ -2,13 +2,18 @@
 title: YAM Markets
 description: trade YAMs
 published: true
-date: 2020-08-13T21:19:29.160Z
+date: 2020-08-19T23:41:43.309Z
 tags: 
 editor: markdown
 ---
 
+> YAMv2 migration has begun.  [Migrate your YAM tokens ASAP!](/migration)
+{.is-danger}
+
 # YAM Token
-This is the YAM token: https://etherscan.io/token/0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16
+
+This is the YAMv1 token: https://etherscan.io/token/0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16
+This is the YAMv2 token: https://etherscan.io/token/0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a
 
 > verify the token address in multiple places — don't get tricked by fake YAMs!
 {.is-warning}
