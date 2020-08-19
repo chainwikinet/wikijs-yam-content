@@ -2,10 +2,13 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-08-18T20:54:59.008Z
+date: 2020-08-19T23:41:55.112Z
 tags: 
 editor: markdown
 ---
+
+> YAMv2 migration has begun.  [Migrate your YAM tokens ASAP!](/migration)
+{.is-danger}
 
 # What Is Rebasing?
 
