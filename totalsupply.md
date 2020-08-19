@@ -2,10 +2,14 @@
 title: YAM Total Supply
 description: how many YAMs are there
 published: true
-date: 2020-08-16T22:37:17.468Z
+date: 2020-08-19T23:37:22.853Z
 tags: 
 editor: markdown
 ---
+
+
+> YAMv2 migration has begun.  [Migrate your YAM tokens ASAP!](/migration)
+{.is-danger}
 
 # How Many YAMs are there?
 
