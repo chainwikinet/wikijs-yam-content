@@ -2,10 +2,14 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-08-16T03:26:37.860Z
+date: 2020-08-19T23:37:06.484Z
 tags: 
 editor: markdown
 ---
+
+
+> YAMv2 migration has begun.  [Migrate your YAM tokens ASAP!](/migration)
+{.is-danger}
 
 # YAM Improvement Proposals (YIPs)
 - https://github.com/RadarTech/YIPs
