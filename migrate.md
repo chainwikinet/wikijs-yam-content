@@ -2,7 +2,7 @@
 title: YAMv2 Migration
 description: convert YAMv1 → YAMv2
 published: true
-date: 2020-08-20T00:22:49.258Z
+date: 2020-08-20T00:26:05.849Z
 tags: 
 editor: markdown
 ---
@@ -47,6 +47,8 @@ Because YAMv2 is new, some wallets may not display the YAMv2 token immediately a
 To add YAMv2 in Metamask, [follow these instructions to add a custom token](https://metamask.zendesk.com/hc/en-us/articles/360015489031-How-to-View-See-Your-Tokens-in-Metamask) and paste in the YAMv2 token address when requested: `0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a`
 
 Alternatively, after migration, view your Ethereum wallet address on [Etherscan](https://etherscan.io) and look in the token dropdown for YAMv2.
+
+If you can't figure out how to add a custom token to your wallet, don't worry—just do the migration and it will be there when your wallet is updated for YAMv2.
 
 
 ## 4. Migrate on [yam.finance](https://yam.finance)
