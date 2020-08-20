@@ -2,7 +2,7 @@
 title: YAMv2 Migration
 description: convert YAMv1 → YAMv2
 published: true
-date: 2020-08-20T00:19:52.122Z
+date: 2020-08-20T00:22:49.258Z
 tags: 
 editor: markdown
 ---
@@ -51,11 +51,14 @@ Alternatively, after migration, view your Ethereum wallet address on [Etherscan]
 
 ## 4. Migrate on [yam.finance](https://yam.finance)
 
+> Migration requires two transactions.  Perform both transactions to migrate!
+{.is-info}
+
 Follow the instructions on [yam.finance](https://yam.finance) to connect your wallet and perform the migration.
 
 In the migration, your YAM will be exchanged for YAMv2.
 
-> Migration requires two transactions.  Perform both transactions to migrate!
+> [Due to rebasing](/rebase), you will receive 1 YAMv2 for every ~10 YAM that you migrate.
 {.is-info}
 
 The first transaction will call `approve` on the YAMv1 token contract, `0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16`.  It allows the migration contract to manage your tokens.
