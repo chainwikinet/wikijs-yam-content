@@ -2,7 +2,7 @@
 title: YAM Markets
 description: trade YAMs
 published: true
-date: 2020-08-19T23:41:43.309Z
+date: 2020-08-20T01:04:58.966Z
 tags: 
 editor: markdown
 ---
@@ -28,7 +28,11 @@ YAM market dashboards:
 
 # Uniswap
 
-> Providing YAM liquidity on Uniswap is unsafe! [Remove your funds from Uniswap!][uniswap-warning]
+> There is [very little YAMv2 liquidity in Uniswap](https://uniswap.info/token/0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a), so it is more efficient to buy YAMv1 and [migrate it](/migration) than to buy YAMv2 directly
+{.is-info}
+
+
+> Providing YAMv1 liquidity on Uniswap may be unsafe! [Remove your funds from Uniswap][uniswap-warning]
 {.is-warning}
 
 YAM is available to trade on Uniswap.
