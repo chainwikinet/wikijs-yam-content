@@ -2,7 +2,7 @@
 title: YAMv2 Migration
 description: convert YAMv1 → YAMv2
 published: true
-date: 2020-08-20T00:26:05.849Z
+date: 2020-08-20T00:27:35.891Z
 tags: 
 editor: markdown
 ---
@@ -66,6 +66,8 @@ In the migration, your YAM will be exchanged for YAMv2.
 The first transaction will call `approve` on the YAMv1 token contract, `0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16`.  It allows the migration contract to manage your tokens.
 
 The second transaction will call `migrate` on the migration contract, `0xf1d7c9E4c57a5C1902f4A4aE2630d2Da78Ffb1c1`.  It will exchange your YAM tokens for YAMv2 tokens.
+
+[ZapperFi also has a migration tool](https://twitter.com/zapper_fi/status/1296208943828602882), so feel free to use that if you trust it.
 
 ## 5. Listen for official announcements
 
