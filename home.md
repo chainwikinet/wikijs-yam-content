@@ -2,7 +2,7 @@
 title: Home
 description: Welcome to the YAM Community Chainwiki
 published: true
-date: 2020-08-14T21:57:53.947Z
+date: 2020-08-21T08:10:13.205Z
 tags: 
 editor: markdown
 ---
@@ -18,4 +18,4 @@ https://github.com/chainwikinet/wikijs-yam-content (PRs accepted!)
 {.is-warning}
 
 
-Administered by the [Chainwiki Network](https://meta.chainwiki.dev/)
+Administered by the [Chainwiki Network](https://meta.chainwiki.dev/).
