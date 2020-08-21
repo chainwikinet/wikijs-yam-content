@@ -2,7 +2,7 @@
 title: YAM Uniswap Farming
 description: provide liquidity, stake, get YAMs
 published: true
-date: 2020-08-19T23:38:48.208Z
+date: 2020-08-21T06:39:55.990Z
 tags: 
 editor: markdown
 ---
