@@ -2,7 +2,7 @@
 title: YAMv2 Migration
 description: convert YAMv1 → YAMv2
 published: true
-date: 2020-08-24T06:04:55.698Z
+date: 2020-08-24T06:07:05.006Z
 tags: 
 editor: markdown
 ---
@@ -21,7 +21,7 @@ The migration period [ran for 72 hours and ended on 2020-08-22 16:20 UTC](https:
 
 If you still hold YAMv1 tokens, these tokens will remain YAMv1 tokens.
 
-You can still [sell YAMv1 tokens on Uniswap](/trade).
+You can still [sell YAMv1 tokens on Uniswap](/trade).  Join the discussion on [YAM Discord](/team).
 
 
 
