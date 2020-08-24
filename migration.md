@@ -2,14 +2,28 @@
 title: YAMv2 Migration
 description: convert YAMv1 → YAMv2
 published: true
-date: 2020-08-20T00:49:23.792Z
+date: 2020-08-24T06:04:14.378Z
 tags: 
 editor: markdown
 ---
 
 
-> YAMv2 migration is underway!  Migrate your YAM tokens ASAP!
-{.is-danger}
+> The YAMv1 → YAMv2 migration is now over. The following information is preserved for technical and historical interest.
+{.is-info}
+
+
+
+# Migration Is Now Over
+
+The migration period [ran for 72 hours and ended on 2020-08-22 16:20 UTC](https://medium.com/@yamfinance/yam-migration-live-955c63766ab8).  The migration timeline was decided on by the YAM Finance launch team and the length of the migration window was [hardcoded into the migration contract](https://etherscan.io/address/0xf1d7c9E4c57a5C1902f4A4aE2630d2Da78Ffb1c1#readContract).  It is not possible for anyone, including the YAM Finance team, to reopen the migration.
+
+Migration is now over, and it is no longer possible to convert YAMv1 to YAMv2.
+
+If you still hold YAMv1 tokens, these tokens will remain YAMv1 tokens.
+
+You can still [sell YAMv1 tokens on Uniswap](/markets).
+
+
 
 
 # What You Need To Do
