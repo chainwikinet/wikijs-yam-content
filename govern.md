@@ -2,7 +2,7 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-08-26T00:04:08.558Z
+date: 2020-08-26T00:11:17.326Z
 tags: 
 editor: markdown
 ---
@@ -20,3 +20,9 @@ vote on proposals on Snapshot:
 - https://snapshot.page/#/yam/
 
 For best results, discuss proposals on [YAM Discord](/team) to get feedback before submitting!
+
+
+# High-Quality YIPs
+
+> The following is the opinion of the wiki manager and community member [Brandon Curtis](https://twitter.com/bcmakes)
+{.is-info}
