@@ -2,7 +2,7 @@
 title: YAM Uniswap Farming
 description: provide liquidity, stake, get YAMs
 published: true
-date: 2020-08-29T02:27:52.528Z
+date: 2020-08-29T02:29:23.842Z
 tags: 
 editor: markdown
 ---
@@ -12,10 +12,10 @@ editor: markdown
 
 # Stake Uniswap LP Shares
 
-Users can provide YAM-yCRV liquidity on Uniswap, then deposit those LP shares into the :rainbow:`Eternal Lands` stakedrop contract to farm even more YAMs.
-
-> Providing YAM liquidity on Uniswap is unsafe! [Remove your funds from Uniswap!][uniswap-warning]
+> Wave1 staking for YAMv1 continues, but migration from YAMv1 to YAMv2 is now over. The following information is preserved for historical and technical interest.
 {.is-warning}
+
+Users can provide YAM-yCRV liquidity on Uniswap, then deposit those LP shares into the :rainbow:`Eternal Lands` stakedrop contract to farm even more YAMs.
 
 LPs for Uniswap pool [0x2c7a51a357d5739c5c74bf3c96816849d2c9f726][etherscan-unipool] are eligible for this stakedrop.  See [markets](/trade) to learn more about this Uniswap pool.
 
