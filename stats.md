@@ -2,14 +2,14 @@
 title: YAM Dashboards
 description: tools for managing your YAM farms
 published: true
-date: 2020-08-19T23:43:21.385Z
+date: 2020-08-29T02:26:12.160Z
 tags: 
 editor: markdown
 ---
 
 
-> YAMv2 migration has begun.  [Migrate your YAM tokens ASAP!](/migration)
-{.is-danger}
+> The [YAMv1 → YAMv2 migration](/migration) is now over
+{.is-info}
 
 # Official Tools
 
