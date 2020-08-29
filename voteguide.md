@@ -1,8 +1,8 @@
 ---
-title: BC Voting Guide
-description: 
+title: YAM Voting Guide
+description: voting guide for YAM v2 → v3 transition
 published: true
-date: 2020-08-29T01:30:11.514Z
+date: 2020-08-29T01:33:18.067Z
 tags: 
 editor: markdown
 ---
