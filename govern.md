@@ -2,14 +2,14 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-08-29T01:29:20.955Z
+date: 2020-08-29T02:27:10.805Z
 tags: 
 editor: markdown
 ---
 
 
-> The [migration to YAMv2](/migration) is now over
-{.is-danger}
+> The [YAMv1 → YAMv2 migration](/migration) is now over
+{.is-info}
 
 # YAM Improvement Proposals (YIPs)
 
