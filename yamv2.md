@@ -2,13 +2,13 @@
 title: YAM Reboot
 description: YAMv1 → YAMv2 migration
 published: true
-date: 2020-08-19T23:42:49.537Z
+date: 2020-08-29T02:27:21.954Z
 tags: 
 editor: markdown
 ---
 
-> YAMv2 migration has begun.  [Migrate your YAM tokens ASAP!](/migration)
-{.is-danger}
+> The [YAMv1 → YAMv2 migration](/migration) is now over
+{.is-info}
 
 # #SAVEYAM Vote Delegation
 
