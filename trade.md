@@ -2,10 +2,13 @@
 title: YAM Markets
 description: trade YAMs
 published: true
-date: 2020-08-23T22:34:48.151Z
+date: 2020-08-29T02:27:35.485Z
 tags: 
 editor: markdown
 ---
+
+> The [YAMv1 → YAMv2 migration](/migration) is now over
+{.is-info}
 
 # YAMv2
 
@@ -20,10 +23,6 @@ YAMv2 market dashboards:
 - https://www.coingecko.com/en/coins/yam-v2
 - https://coinmarketcap.com/currencies/yam-v2
 - https://uniswap.info/token/0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a
-
-
-
-
 
 
 # YAMv1
