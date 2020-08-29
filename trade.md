@@ -2,13 +2,10 @@
 title: YAM Markets
 description: trade YAMs
 published: true
-date: 2020-08-29T02:27:35.485Z
+date: 2020-08-29T02:27:41.319Z
 tags: 
 editor: markdown
 ---
-
-> The [YAMv1 → YAMv2 migration](/migration) is now over
-{.is-info}
 
 # YAMv2
 
