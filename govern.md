@@ -2,7 +2,7 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-08-31T23:39:58.853Z
+date: 2020-08-31T23:45:23.854Z
 tags: 
 editor: markdown
 ---
@@ -21,16 +21,18 @@ vote on proposals on Snapshot:
 
 For best results, discuss proposals on [YAM Discord](/team) to get feedback before submitting!
 
-# Approved Proposals
+# V2 Government: Approved Proposals
 
-Approved Proposals from the Core Dev Team:
+On August 24, 2020, the V2 Governance Portal launched, which allowed the YAM community to discuss, submit, and vote on proposals regarding the upcoming transition to YAM V3. 
+
+Approved Proposals, submitted by the Core Dev Team:
 
 [YIP-1: Proposal Mechanics](https://snapshot.page/#/yam/proposal/QmRMxkq98LJhFqJAC5GNCHrCwe3FFzxveb7MPzLYDCKT49)
 [YIP-2: YAMv3 Initial Parameters](https://snapshot.page/#/yam/proposal/Qmc1GpiLaPXRLsXw31R1RznKrMTnzmonbSn2kCXVwxUWTV)
 [YIP-6: Proposal Conflict Resolution](https://snapshot.page/#/yam/proposal/QmShrmWxTZdLfrF926wqmY7RLsNMGoWRwfLyvbd96YZjin)
 [YIP-15: Delegator Reward Modification](https://snapshot.page/#/yam/proposal/QmSUbZ7zMs2nJ8iemVpDDEtpUWqpGuu3zE7zdozAxCvzjF) & [Amendment](https://snapshot.page/#/yam/proposal/QmVuJ2gDgKBje3MsMeR4M2TYdavQy8P5kqaa7HYFt3tpYN)
 
-Approved Proposals from the Community:
+Approved Proposals, submitted by the Community:
 
 [YIP-9: Add support for calling sync() on the ETH-YAMv3 Uniswap pool](https://snapshot.page/#/yam/proposal/QmTCXW2bhETiwHoDqeyxoDA4CwjURyfc6T4fAJLGz3yKj9)
 [YIP-11: 1% of YAM Treasury Inflows => Gitcoin Grants Matching Pool](https://snapshot.page/#/yam/proposal/QmQhFu6miTLtmNyRtCGFXvoFw54VmtkX2chDeUdfFXAtx9)
@@ -39,6 +41,4 @@ Approved Proposals from the Community:
 [YIP-17: YAM FAM Improved LP Incentives](https://snapshot.page/#/yam/proposal/QmcHG5AFKrSXJ7bnww8rJfTSUPYtK3tbVXBVr4oxzKoEqY)
 [YIP-22: YAM FAM Migration Rescue Multi-sig Fund](https://snapshot.page/#/yam/proposal/QmSwFus2RLkoNJRSm2VTrAxjdRQc23RrWY7W6s675CXnzi)
 [YIP-23: YAM FAM Migration Rescue Airdrop](https://snapshot.page/#/yam/proposal/Qma5N6xV4nkzBALgGZMSD8L7A7mrsrRMntXpx2xT1MGPbu)
-[YIP-100 : Require 1 YAM burn for proposals
-](https://snapshot.page/#/yam/proposal/QmUntcMz42wQeeSr1DiYcc6j1iukn6ua2TPtyv4h8TZRZE)
-
+[YIP-100 : Require 1 YAM burn for proposals](https://snapshot.page/#/yam/proposal/QmUntcMz42wQeeSr1DiYcc6j1iukn6ua2TPtyv4h8TZRZE)
