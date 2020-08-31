@@ -2,7 +2,7 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-08-31T23:45:23.854Z
+date: 2020-08-31T23:59:11.100Z
 tags: 
 editor: markdown
 ---
@@ -39,6 +39,7 @@ Approved Proposals, submitted by the Community:
 [YIP-12: Eliminate the 1 Million YAM Community Fund From YIP-2](https://snapshot.page/#/yam/proposal/QmctSLYFvLhPoePehigZMwoLhdgyrMxjnrroFyPdmCVJoc)
 [YIP-13 : Change end timeline Sep 7 to Aug 31](https://snapshot.page/#/yam/proposal/QmXxeHtsquFDpWGUYGnbCrn6H6xo1m8RsLWmssg9azp1bn)
 [YIP-17: YAM FAM Improved LP Incentives](https://snapshot.page/#/yam/proposal/QmcHG5AFKrSXJ7bnww8rJfTSUPYtK3tbVXBVr4oxzKoEqY)
+[YIP-19: YAM FAM Migration Vesting](https://snapshot.page/#/yam/proposal/QmVP5f5BWuxhRtKBUrUifjQrPYRM5YHngQYdK62UuSRt6p)
 [YIP-22: YAM FAM Migration Rescue Multi-sig Fund](https://snapshot.page/#/yam/proposal/QmSwFus2RLkoNJRSm2VTrAxjdRQc23RrWY7W6s675CXnzi)
 [YIP-23: YAM FAM Migration Rescue Airdrop](https://snapshot.page/#/yam/proposal/Qma5N6xV4nkzBALgGZMSD8L7A7mrsrRMntXpx2xT1MGPbu)
 [YIP-100 : Require 1 YAM burn for proposals](https://snapshot.page/#/yam/proposal/QmUntcMz42wQeeSr1DiYcc6j1iukn6ua2TPtyv4h8TZRZE)
