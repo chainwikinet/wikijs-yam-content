@@ -2,9 +2,10 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-08-29T02:26:52.587Z
+date: 2020-09-21T22:19:15.314Z
 tags: 
 editor: markdown
+dateCreated: 2020-08-13T07:24:24.103Z
 ---
 
 > The [YAMv1 → YAMv2 migration](/migration) is now over
@@ -12,15 +13,15 @@ editor: markdown
 
 # What Is Rebasing?
 
-YAM changes the balance of everyone's wallets to try to reach a price of $1.  This process is called "rebasing" and is similar to the mechanism used by [Ampleforth](https://www.ampleforth.org/).  YAM rebases—and your wallet balance of YAMs may change—every 12 hours.
+YAM changes the balance of everyone's wallets to try to reach a price of 1 yUSD.  This process is called "rebasing" and is similar to the mechanism used by [Ampleforth](https://www.ampleforth.org/).  YAM rebases—and your wallet balance of YAMs may change—every 12 hours.
 
 Rebasing works like this:
 
-1. if YAM is selling for more than $1.05, increase the number of YAMs to make YAM more common.  The balance of YAMs in all wallets and contracts will increase.
+1. if YAM is selling for more than 1.05 yUSD, increase the number of YAMs to make YAM more common.  The balance of YAMs in all wallets and contracts will increase.
 
-2. if YAM is selling for less than $0.95, decrease the number of YAMs to make YAM more rare.  The balance of YAMs in all wallets and contracts will decrease.
+2. if YAM is selling for less than 0.95 yUSD, decrease the number of YAMs to make YAM more rare.  The balance of YAMs in all wallets and contracts will decrease.
 
-3. if YAM is selling for approximately $1 ($0.95-$1.05), keep the YAM balances the same.
+3. if YAM is selling for approximately 1yUSD (0.95-1.05 yUSD), keep the YAM balances the same.
 
 The deviation threshold, currently at 5%, is defined in `YAMRebaser` and could be changed in the future by a tokenholder vote: https://etherscan.io/address/0x649714bc2fffcb1e65c689b49a10216d4960833d#readContract
 
@@ -42,54 +43,15 @@ YAM rebases happen every 12 hours: 8AM and 8PM UTC.  At this time, the `rebase` 
 ).
 {.is-info}
 
+
+## YAM Scaling Factor History
+
 | Epoch | datetime                     | Balance Scale Factor | = 1 OG YAM | Change |  Rebase TX               |
 |-------|------------------------------|----------------------|------------|--------|--------------------------|
-| 0     | Aug-12-2020 08:00:00 AM +UTC | 1000000000000000000  | 1   YAM    | ----   | ----                     |
-| 1     | Aug-12-2020 08:00:08 PM +UTC | 9307350094489455602  | 9.3 YAM    | +930%  | [0x7b9017ec...][rebase1] |
-| 2     | Aug-13-2020 08:00:18 AM +UTC | 18780439270761214101 | 18.7 YAM   | +200%  | [0x32735e9e...][rebase2] |
-| 3     | Aug-13-2020 08:00:24 PM +UTC | 17889705531675302598 | 17.9 YAM   | -5%    | [0x527b8a97...][rebase3] |
-| 4     | Aug-14-2020 08:07:53 AM +UTC | 16980295531490104432 | 17.0 YAM   | -5%    | [0xae58745c...][rebase4] |
-| 5     | Aug-14-2020 08:04:52 PM +UTC | 16411751552705509551 | 16.4 YAM   | -3.5%  | [0x613d23a0...][rebase5] |
-| 6     | Aug-15-2020 08:01:45 AM +UTC | 15985697655747854180 | 16.0 YAM   | -2.5%  | [0x4c64faec...][rebase6] |
-| 7     | Aug-15-2020 08:00:09 PM +UTC | 15356704803425008450 | 15.4 YAM   | -4%    | [0xabe13f7f...][rebase7] |
-| 8     | Aug-16-2020 08:03:42 AM +UTC | 14681935211341898592 | 14.7 YAM   | -4.5%  | [0x3cbae78c...][rebase8] |
-| 9     | Aug-16-2020 08:04:03 PM +UTC | 13845372019807670051 | 13.8 YAM   | -5.7%  | [0xab9f2f2e...][rebase9] |
-| 10    | Aug-17-2020 08:03:25 AM +UTC | 12955002278062718827 | 13.0 YAM   | -6.5%  | [0x71af3da8...][rebase10] |
-| 11    | Aug-17-2020 08:00:00 PM +UTC | 12193451105048975899 | 12.1 YAM   | -6.9%  | [0x3379bb1d...][rebase11] |
-| 12    | Aug-18-2020 08:00:12 AM +UTC | 11589589179551895942 | 11.6 YAM   | -5%    | [0xb0aa0a63...][rebase12] |
-| 13    | Aug-18-2020 08:00:44 PM +UTC | 11123071445415645438 | 11.1 YAM   | -4%    | [0x4a24406e...][rebase13] |
-| 14    | Aug-19-2020 08:00:00 AM +UTC | TBD | TBD   | TBD  | [...][rebase14] |
-| 15    | Aug-19-2020 08:00:00 PM +UTC | TBD | TBD   | TBD  | [...][rebase15] |
-| 16    | Aug-20-2020 08:00:00 AM +UTC | TBD | TBD   | TBD  | [...][rebase16] |
-| 17    | Aug-20-2020 08:00:00 PM +UTC | TBD | TBD   | TBD  | [...][rebase17] |
-| 18    | Aug-21-2020 08:00:00 AM +UTC | TBD | TBD   | TBD  | [...][rebase18] |
-| 19    | Aug-21-2020 08:00:00 PM +UTC | TBD | TBD   | TBD  | [...][rebase19] |
-| 20    | Aug-22-2020 08:00:00 AM +UTC | TBD | TBD   | TBD  | [...][rebase20] |
+| 0     | Sep-18-2020 08:00:00 PM +UTC | 1000000000000000000  | 1   YAM    | ----   | ----     
+| 1     | Sep-21-2020 08:00:08 PM +UTC | 2486001344653995715  | 2.5 YAM    | +250%  | [0x9dac453a...][rebase_1] |
 
-
-
-[rebase1]: https://etherscan.io/tx/0x7b9017ec92b0200455e5269380195fbecfbf91c8acda30985cc1dc413d215076
-[rebase2]: https://etherscan.io/tx/0x32735e9e9aac51739b5725a225be6c7a3851f422be986d0f4f4bc0ec475ee286
-[rebase3]: https://etherscan.io/tx/0x527b8a970a53bd46d99d758aa16ff9c2218513b46647a7cfbff72f8a22f8aedc
-[rebase4]: https://etherscan.io/tx/0xae58745c11679894bdcbd5b977e864b669148f61b73009f72551c32a07ba9466
-[rebase5]: https://etherscan.io/tx/0x613d23a0315b068ac183376fe786188c4c65972970f7d3cdb490eba95eae8549
-[rebase6]: https://etherscan.io/tx/0x4c64faeca69106807930badf7801b3db5ffbcbf3212d076bea2b7b1a048eb83b
-[rebase7]: https://etherscan.io/tx/0xabe13f7f9a27370c07f1eb711af4b37442df4d4bf0234febefcc5a4c79d043ec
-[rebase8]: https://etherscan.io/tx/0x3cbae78cd78fbc7a466ffb3956f3f95928579f40f14fceda978a1c5d81d26a64
-[rebase9]: https://etherscan.io/tx/0xab9f2f2e188fc4cd8d0755c2eedc77bb7aab705f5493704576b802617fc583b0
-[rebase10]: https://etherscan.io/tx/0x71af3da8a8ca503e1ae68dc708772be623024213572192b7a192504cfdfea620
-[rebase11]: https://etherscan.io/tx/0x3379bb1d2fab33b1391f78fac38103de2554da96768cc0046e434a6f13d74262
-[rebase12]: https://etherscan.io/tx/0xb0aa0a63bcc994b0f46bdd926dc2062318792679df8b46aae891877899d058b7
-[rebase13]: https://etherscan.io/tx/0x4a24406e69821bd2478b4410a151a4f930402746e9efb3548031ba3e0f998885
-[rebase14]: #
-[rebase15]: #
-[rebase16]: #
-[rebase17]: #
-[rebase18]: #
-[rebase19]: #
-[rebase20]: #
-
-
+[rebase_1]: https://etherscan.io/tx/0x9dac453a1f26125525ca048f96c472e2883252de974ec382d76086f19eba25a9
 
 
 # How Rebases Are Calculated
@@ -105,7 +67,7 @@ Docstring description of the `rebase` function:
 * and targetRate is 1e18
 ```
 
-- `targetRate` is the target price of YAMs.  This is $1, expressed as `1000000000000000000` (1x10^18) in `21. targetRate` in the [YAMRebaser contract][etherscan-rebaser].
+- `targetRate` is the target price of YAMs.  This is 1 yUSD, expressed as `1000000000000000000` (1x10^18) in `21. targetRate` in the [YAMRebaser contract][etherscan-rebaser].
 - `MarketOracleRate` is the YAM TWAP (time-weighted average price) retrieved from the Uniswap YAM:yCRV pool; the current value is displayed by `4. get CurrentTWAP` in the [YAMRebaser contract][etherscan-rebaser].
 - `rebaseLag` is 10, which you can see in `14. rebaseLag` in the [YAMRebaser contract][etherscan-rebaser].
 
@@ -113,7 +75,7 @@ At the time of writing this example, this is how the math worked.  First, we cal
 
 ```
  559423596560698595 MarketOracleRate (current TWAP from Uniswap)
-1000000000000000000 targetRate (target price of $1)
+1000000000000000000 targetRate (target price of 1 yUSD)
 
 DeviationFromTargetRate = (MarketOracleRate - targetRate) / targetRate
 DeviationFromTargetRate = (559423596560698595 - 1000000000000000000) / 1000000000000000000
@@ -132,6 +94,44 @@ change in supply = _totalSupply * (-0.04405764034393014)
 
 So if the `rebase` happened at that moment, the total supply—and all YAM balances everywhere in wallets and contracts—would decrease by about 4.4%.
 
+# YAMv1 Rebase 
+
+Here are records of the original YAMv1 rebases. The rebases have since discontinued.
+
+## Archive: YAMv1 Scaling Factor History
+
+
+| Epoch | datetime                     | Balance Scale Factor | = 1 OG YAM | Change |  Rebase TX               |
+|-------|------------------------------|----------------------|------------|--------|--------------------------|
+| 0     | Aug-12-2020 08:00:00 AM +UTC | 1000000000000000000  | 1   YAM    | ----   | ----                     |
+| 1     | Aug-12-2020 08:00:08 PM +UTC | 9307350094489455602  | 9.3 YAM    | +930%  | [0x7b9017ec...][rebase1] |
+| 2     | Aug-13-2020 08:00:18 AM +UTC | 18780439270761214101 | 18.7 YAM   | +200%  | [0x32735e9e...][rebase2] |
+| 3     | Aug-13-2020 08:00:24 PM +UTC | 17889705531675302598 | 17.9 YAM   | -5%    | [0x527b8a97...][rebase3] |
+| 4     | Aug-14-2020 08:07:53 AM +UTC | 16980295531490104432 | 17.0 YAM   | -5%    | [0xae58745c...][rebase4] |
+| 5     | Aug-14-2020 08:04:52 PM +UTC | 16411751552705509551 | 16.4 YAM   | -3.5%  | [0x613d23a0...][rebase5] |
+| 6     | Aug-15-2020 08:01:45 AM +UTC | 15985697655747854180 | 16.0 YAM   | -2.5%  | [0x4c64faec...][rebase6] |
+| 7     | Aug-15-2020 08:00:09 PM +UTC | 15356704803425008450 | 15.4 YAM   | -4%    | [0xabe13f7f...][rebase7] |
+| 8     | Aug-16-2020 08:03:42 AM +UTC | 14681935211341898592 | 14.7 YAM   | -4.5%  | [0x3cbae78c...][rebase8] |
+| 9     | Aug-16-2020 08:04:03 PM +UTC | 13845372019807670051 | 13.8 YAM   | -5.7%  | [0xab9f2f2e...][rebase9] |
+| 10    | Aug-17-2020 08:03:25 AM +UTC | 12955002278062718827 | 13.0 YAM   | -6.5%  | [0x71af3da8...][rebase10] |
+| 11    | Aug-17-2020 08:00:00 PM +UTC | 12193451105048975899 | 12.1 YAM   | -6.9%  | [0x3379bb1d...][rebase11] |
+| 12    | Aug-18-2020 08:00:12 AM +UTC | 11589589179551895942 | 11.6 YAM   | -5%    | [0xb0aa0a63...][rebase12] |
+| 13    | Aug-18-2020 08:00:44 PM +UTC | 11123071445415645438 | 11.1 YAM   | -4%    | [0x4a24406e...][rebase13] |
+
+
+[rebase1]: https://etherscan.io/tx/0x7b9017ec92b0200455e5269380195fbecfbf91c8acda30985cc1dc413d215076
+[rebase2]: https://etherscan.io/tx/0x32735e9e9aac51739b5725a225be6c7a3851f422be986d0f4f4bc0ec475ee286
+[rebase3]: https://etherscan.io/tx/0x527b8a970a53bd46d99d758aa16ff9c2218513b46647a7cfbff72f8a22f8aedc
+[rebase4]: https://etherscan.io/tx/0xae58745c11679894bdcbd5b977e864b669148f61b73009f72551c32a07ba9466
+[rebase5]: https://etherscan.io/tx/0x613d23a0315b068ac183376fe786188c4c65972970f7d3cdb490eba95eae8549
+[rebase6]: https://etherscan.io/tx/0x4c64faeca69106807930badf7801b3db5ffbcbf3212d076bea2b7b1a048eb83b
+[rebase7]: https://etherscan.io/tx/0xabe13f7f9a27370c07f1eb711af4b37442df4d4bf0234febefcc5a4c79d043ec
+[rebase8]: https://etherscan.io/tx/0x3cbae78cd78fbc7a466ffb3956f3f95928579f40f14fceda978a1c5d81d26a64
+[rebase9]: https://etherscan.io/tx/0xab9f2f2e188fc4cd8d0755c2eedc77bb7aab705f5493704576b802617fc583b0
+[rebase10]: https://etherscan.io/tx/0x71af3da8a8ca503e1ae68dc708772be623024213572192b7a192504cfdfea620
+[rebase11]: https://etherscan.io/tx/0x3379bb1d2fab33b1391f78fac38103de2554da96768cc0046e434a6f13d74262
+[rebase12]: https://etherscan.io/tx/0xb0aa0a63bcc994b0f46bdd926dc2062318792679df8b46aae891877899d058b7
+[rebase13]: https://etherscan.io/tx/0x4a24406e69821bd2478b4410a151a4f930402746e9efb3548031ba3e0f998885
 
 
 [etherscan-rebaser]: https://etherscan.io/address/0x649714bc2fffcb1e65c689b49a10216d4960833d#readContract
