@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-09-21T22:37:35.208Z
+date: 2020-09-21T22:48:14.269Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:24:24.103Z
@@ -104,7 +104,7 @@ So if the `rebase` happened at that moment, the total supply—and all YAM balan
 
 # YAMv1 Rebase 
 
-Here are records of the original YAMv1 rebases. The rebases have since discontinued.
+For historical interest, here's data on the original YAMv1 rebases. The rebases have been discontinued. 
 
 ## Archive: YAMv1 Scaling Factor History
 
