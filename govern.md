@@ -2,9 +2,10 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-08-31T23:59:11.100Z
+date: 2020-09-22T02:02:22.321Z
 tags: 
 editor: markdown
+dateCreated: 2020-08-13T07:25:11.938Z
 ---
 
 
@@ -23,7 +24,9 @@ For best results, discuss proposals on [YAM Discord](/team) to get feedback befo
 
 # V2 Government: Approved Proposals
 
-On August 24, 2020, the V2 Governance Portal launched, which allowed the YAM community to discuss, submit, and vote on proposals regarding the upcoming transition to YAM V3. 
+On August 24, 2020, the V2 Governance opened, which allowed the YAM community to discuss, submit, and vote on proposals regarding the upcoming transition to YAM V3. 
+
+Here's a list of the approved proposals for the YAM relaunch.
 
 Approved Proposals, submitted by the Core Dev Team:
 
