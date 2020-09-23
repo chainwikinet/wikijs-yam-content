@@ -2,7 +2,7 @@
 title: Yam Treasury
 description: on the community treasury 
 published: true
-date: 2020-09-23T16:21:25.457Z
+date: 2020-09-23T16:42:26.051Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T16:21:25.457Z
@@ -36,9 +36,19 @@ The treasury uses yUSD (yyCRV) as it’s reserve asset because it is a stable as
 
 YAM Governance has decided to redirect 1% of all inflows to the Treasury  to the Gitcoin Grants Wallet, in order to support public goods in the Ethereum ecosystem. Every funding from the YAM treasury that goes to the Gitcoin Grants wallet will be 100% used for public goods funding for the Ethereum ecosystem. 
 
-# YAM Treasury Deposits 
+# YAM Treasury Inflow 
 
-| Epoch | Date Time    | Treasury Deposit (yUSD) | Treasury Deposit (YAM) | Gitcoin Deposit (yUSD) |  Rebase TX               |
+YAM Treasury inflow only happen during positive rebases. Here's a list of inflow so far!
+
+| Epoch | Date Time    | Treasury Inflow (yUSD) | Treasury Inflow (YAM) | Gitcoin Inflow (yUSD) |  Rebase TX               |
 |-------|------------------------------|----------------------|---------------|--------|--------------------------|
-| 0     | Sep-18-2020 08:00:00 PM +UTC | ----   | ----     | ----   | ----     
+| 1     | Sep-21-2020 08:00:08 PM +UTC | 496,734  | 214,321     | 4,967   | [0x9dac453a...][rebase_1] |    
+| 2     | Sep-22-2020 08:01:20 AM +UTC | 191,258  | 204,284     | 1,912   | [0x9dac453a...][rebase_2] |    
+| 3     | Sep-22-2020 08:00:31 PM +UTC | 189,155  | 76,671     | 1,891   | [0x9dac453a...][rebase_3] |  
+
+[rebase_1]: https://etherscan.io/tx/0x9dac453a1f26125525ca048f96c472e2883252de974ec382d76086f19eba25a9
+[rebase_2]: 
+https://etherscan.io/tx/0x1ea2025fb21ad277983b745d747345a2cc7e85aab55a45745985f90b926d5b93
+[rebase_3]: 
+https://etherscan.io/tx/0x3c0995865aaa965713dba860e569c2af0b2b72a130f5c667100500e01d72714a
 
