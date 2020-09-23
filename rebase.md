@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-09-22T20:16:29.313Z
+date: 2020-09-23T03:37:40.937Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:24:24.103Z
@@ -42,7 +42,7 @@ YAM rebases happen every 12 hours: 8AM and 8PM UTC.  At this time, the `rebase` 
 {.is-info}
 
 
-## YAM Scaling Factor History
+# YAM Scaling Factor History
 
 | Epoch | datetime                     | Balance Scale Factor | = 1 OG YAM | Change |  Rebase TX               |
 |-------|------------------------------|----------------------|------------|--------|--------------------------|
@@ -112,7 +112,7 @@ So if the `rebase` happened at that moment, the total supply—and all YAM balan
 
 For historical interest, here's data on the original YAMv1 rebases. The rebases have been discontinued. 
 
-## Archive: YAMv1 Scaling Factor History
+# Archive: YAMv1 Scaling Factor History
 
 
 | Epoch | datetime                     | Balance Scale Factor | = 1 OG YAM | Change |  Rebase TX               |
