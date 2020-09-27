@@ -2,7 +2,7 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-09-27T23:30:50.678Z
+date: 2020-09-27T23:32:20.668Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:25:11.938Z
@@ -25,7 +25,7 @@ For best results, discuss proposals on [YAM Discord](/team) to get feedback befo
 
 # YAM Relaunch Government: Approved Proposals
 
-On September 18, 2020, migration to YAM relaunch began and YAM governance re-opened under its new protocol. 
+On September 18, 2020, governance re-opened for the newly relaunched YAM.
 
 Here's a list of the approved proposals during the YAM relaunch.
 
