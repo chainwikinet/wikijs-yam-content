@@ -2,7 +2,7 @@
 title: YAM Launch Team
 description: the team that launched a thousand YAMs
 published: true
-date: 2020-09-27T19:11:22.064Z
+date: 2020-09-27T19:14:26.309Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:20:59.363Z
@@ -13,6 +13,12 @@ dateCreated: 2020-08-13T07:20:59.363Z
 The YAM project was launched by independent Ethereum developers who were excited about DeFi and wanted to combine a bunch of new DeFi ideas to create a new rebasing stablecoin with governance.
 
 The Yam protocol was originally crafted and launched by [Brock Elmore](https://twitter.com/brockjelmore), [Trent Elmore](https://twitter.com/trentelme), [Clinton Bembry](https://twitter.com/clintonbembryjr), [Dan Elitzer](https://twitter.com/delitzer), and [Will Price](https://twitter.com/will__price). 
+
+# The Future
+
+The future will be entirely controlled by the community of YAM holders. This community of YAM holders will determine and update the functionality of the Yam protocol, including oracle usage, rebase functionality, inflation, incentive design, the Yam treasury, and more. 
+
+While the treasury begins empty with potential growth configured to be denominated in yUSD, any future capital allocation can ultimately be controlled by YAM token holders, as can any yield that it might generate. In theory, it is possible that such a treasury could add robustness and security to the protocol, if properly cultivated by YAM holders.
 
 # Official Media
 
