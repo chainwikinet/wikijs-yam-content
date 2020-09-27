@@ -2,7 +2,7 @@
 title: YAM Press
 description: YAM goin mainstream
 published: true
-date: 2020-09-27T19:48:46.767Z
+date: 2020-09-27T19:54:14.533Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:21:40.116Z
@@ -23,3 +23,9 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 - [Uncommon Core - YAM: At the Root of DeFi's Food Obsession](https://anchor.fm/uncommoncore/episodes/10-YAM-At-the-Root-of-DeFis-Food-Obsession-ek1drl)
 - [The Defiant - It Was Exciting But Also Terrifying](https://anchor.fm/camila-russo/episodes/It-Was-Exciting-But-it-Was-Also-Terrifying-Dan-Elitzer-and-Clinton-Bembry-on-Yam-Finances-Backstory-ek7540)
+
+## Team Essays
+- [Trent Elmore -  YAM: More Than A Game Potentially](https://medium.com/yam-finance/yam-more-than-a-game-potentially-49664b83254e)
+- [Trent Elmore - A Brief History of YAM](https://medium.com/yam-finance/a-brief-history-of-yam-d0d0782e71cb)
+- [Trent Elmore - YAM Replanted and Rebased What Now?](https://medium.com/yam-finance/yams-replanted-and-rebased-what-now-a22672b81b55)
+- [Will Price - The YAM Rebase Mechanism and Game Theory](https://medium.com/yam-finance/the-yam-rebase-mechanism-and-game-theory-b8083ce044dd)
