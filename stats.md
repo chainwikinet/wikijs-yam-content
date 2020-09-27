@@ -2,7 +2,7 @@
 title: YAM Dashboards
 description: tools for managing your YAM farms
 published: true
-date: 2020-09-27T22:43:02.901Z
+date: 2020-09-27T23:16:38.755Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-14T19:44:06.472Z
@@ -23,11 +23,11 @@ Tools released by the launch team to monitor and manage YAM:
 
 Tools created by other developers to monitor and manage YAM:
 
+- https://treasury.vision/ 
 - https://yam.tools/
 - https://brandoncurtis.github.io/yamutils
 - https://yam.zippo.io/
 - https://yieldfarming.info/yam/ycrv/
-
 
 # Key Contracts
 
