@@ -2,7 +2,7 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-09-27T23:27:01.543Z
+date: 2020-09-27T23:30:50.678Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:25:11.938Z
@@ -23,11 +23,21 @@ vote on proposals on Snapshot:
 
 For best results, discuss proposals on [YAM Discord](/team) to get feedback before submitting!
 
+# YAM Relaunch Government: Approved Proposals
+
+On September 18, 2020, migration to YAM relaunch began and YAM governance re-opened under its new protocol. 
+
+Here's a list of the approved proposals during the YAM relaunch.
+
+Approved Proposals, submitted by the Core Dev Team:
+
+[YIP-1: MaxSlippage Modification](https://snapshot.page/#/yam/proposal/QmeaUEb6y8xqdL28VmCNNEELihbdX2N7corG5KdmcHdzzE)
+[YIP-2: RebaseLag Modification](https://snapshot.page/#/yam/proposal/QmVzvqJwnnEhnJGxDoKZNNkeRXvrmscrhwpLbZrQxw1mkf)
+
+
 # V2 Government: Approved Proposals
 
-On August 24, 2020, the V2 Governance opened, which allowed the YAM community to discuss, submit, and vote on proposals regarding the upcoming transition to YAM V3. 
-
-Here's a list of the approved proposals for the YAM relaunch.
+The following below are approved proposals passed during YAMv2 Governance (active during the week of August 24, 2020.) The YAMv2 Governance focused on big picture proposals regarding the YAM relaunch.
 
 Approved Proposals, submitted by the Core Dev Team:
 
@@ -47,11 +57,4 @@ Approved Proposals, submitted by the Community:
 [YIP-22: YAM FAM Migration Rescue Multi-sig Fund](https://snapshot.page/#/yam/proposal/QmSwFus2RLkoNJRSm2VTrAxjdRQc23RrWY7W6s675CXnzi)
 [YIP-23: YAM FAM Migration Rescue Airdrop](https://snapshot.page/#/yam/proposal/Qma5N6xV4nkzBALgGZMSD8L7A7mrsrRMntXpx2xT1MGPbu)
 [YIP-100 : Require 1 YAM burn for proposals](https://snapshot.page/#/yam/proposal/QmUntcMz42wQeeSr1DiYcc6j1iukn6ua2TPtyv4h8TZRZE)
-
-# YAM Relaunch Government: Approved Proposals
-
-Approved Proposals, submitted by the Core Dev Team:
-
-[YIP-1: MaxSlippage Modification](https://snapshot.page/#/yam/proposal/QmeaUEb6y8xqdL28VmCNNEELihbdX2N7corG5KdmcHdzzE)
-[YIP-2: RebaseLag Modification](https://snapshot.page/#/yam/proposal/QmVzvqJwnnEhnJGxDoKZNNkeRXvrmscrhwpLbZrQxw1mkf)
 
