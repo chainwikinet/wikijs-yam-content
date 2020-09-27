@@ -2,7 +2,7 @@
 title: YAM Markets
 description: trade YAMs
 published: true
-date: 2020-09-27T23:41:52.214Z
+date: 2020-09-27T23:44:48.354Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:23:41.115Z
@@ -14,7 +14,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 # YAM
 
-This is the YAM token:
+The YAM Token on Etherscan:
 https://etherscan.io/token/0x0aacfbec6a24756c20d41914f2caba817c0d8521
 
 > verify the token address in multiple places — don't get tricked by fake YAMs!
@@ -30,7 +30,11 @@ YAM market dashboards:
 
 # YAMv2
 
-This is the YAMv2 token: https://etherscan.io/token/0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a
+> YAMv2 has no team support and can no longer be developed. YAMv2 can still be bought, sold, and migrated to the current YAM token. 
+{.is-info}
+
+The YAMv2 Token on Etherscan:
+https://etherscan.io/token/0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a
 
 Trade for YAMv2 on Uniswap: https://app.uniswap.org/#/swap?outputCurrency=0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a
 
@@ -42,7 +46,7 @@ YAMv2 market dashboards:
 
 # YAMv1
 
-> YAMv1 can still be bought and sold, but migration from YAMv1 to YAMv2 has closed and YAMv1 can no longer be converted to YAMv2. YAMv1 information is preserved below for informational purposes.
+> YAMv1 can still be bought and sold, but migration from YAMv1 to YAMv2/YAM has closed. YAMv1 can no longer be converted. 
 {.is-info}
 
 ## YAMv1 Token
