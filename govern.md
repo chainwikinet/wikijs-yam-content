@@ -2,7 +2,7 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-09-27T23:32:20.668Z
+date: 2020-09-27T23:33:15.008Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:25:11.938Z
@@ -29,7 +29,7 @@ On September 18, 2020, governance re-opened for the newly relaunched YAM.
 
 Here's a list of the approved proposals during the YAM relaunch.
 
-Approved Proposals, submitted by the Core Dev Team:
+## Approved Proposals, submitted by the Core Dev Team:
 
 [YIP-1: MaxSlippage Modification](https://snapshot.page/#/yam/proposal/QmeaUEb6y8xqdL28VmCNNEELihbdX2N7corG5KdmcHdzzE)
 [YIP-2: RebaseLag Modification](https://snapshot.page/#/yam/proposal/QmVzvqJwnnEhnJGxDoKZNNkeRXvrmscrhwpLbZrQxw1mkf)
@@ -39,14 +39,14 @@ Approved Proposals, submitted by the Core Dev Team:
 
 The following below are approved proposals passed during YAMv2 Governance (active during the week of August 24, 2020.) The YAMv2 Governance focused on big picture proposals regarding the YAM relaunch.
 
-Approved Proposals, submitted by the Core Dev Team:
+## Approved Proposals, submitted by the Core Dev Team:
 
 [YIP-1: Proposal Mechanics](https://snapshot.page/#/yam/proposal/QmRMxkq98LJhFqJAC5GNCHrCwe3FFzxveb7MPzLYDCKT49)
 [YIP-2: YAMv3 Initial Parameters](https://snapshot.page/#/yam/proposal/Qmc1GpiLaPXRLsXw31R1RznKrMTnzmonbSn2kCXVwxUWTV)
 [YIP-6: Proposal Conflict Resolution](https://snapshot.page/#/yam/proposal/QmShrmWxTZdLfrF926wqmY7RLsNMGoWRwfLyvbd96YZjin)
 [YIP-15: Delegator Reward Modification](https://snapshot.page/#/yam/proposal/QmSUbZ7zMs2nJ8iemVpDDEtpUWqpGuu3zE7zdozAxCvzjF) & [Amendment](https://snapshot.page/#/yam/proposal/QmVuJ2gDgKBje3MsMeR4M2TYdavQy8P5kqaa7HYFt3tpYN)
 
-Approved Proposals, submitted by the Community:
+## Approved Proposals, submitted by the Community:
 
 [YIP-9: Add support for calling sync() on the ETH-YAMv3 Uniswap pool](https://snapshot.page/#/yam/proposal/QmTCXW2bhETiwHoDqeyxoDA4CwjURyfc6T4fAJLGz3yKj9)
 [YIP-11: 1% of YAM Treasury Inflows => Gitcoin Grants Matching Pool](https://snapshot.page/#/yam/proposal/QmQhFu6miTLtmNyRtCGFXvoFw54VmtkX2chDeUdfFXAtx9)
