@@ -2,12 +2,13 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-09-27T19:35:29.315Z
+date: 2020-09-27T20:29:22.801Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:24:24.103Z
 ---
 
+![copy_of_yam_rebase_eli5_(5).png](/copy_of_yam_rebase_eli5_(5).png)
 
 # What Is Rebasing?
 
