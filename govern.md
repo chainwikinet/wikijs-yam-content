@@ -2,7 +2,7 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-09-27T20:08:07.839Z
+date: 2020-09-27T23:27:01.543Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:25:11.938Z
@@ -47,3 +47,11 @@ Approved Proposals, submitted by the Community:
 [YIP-22: YAM FAM Migration Rescue Multi-sig Fund](https://snapshot.page/#/yam/proposal/QmSwFus2RLkoNJRSm2VTrAxjdRQc23RrWY7W6s675CXnzi)
 [YIP-23: YAM FAM Migration Rescue Airdrop](https://snapshot.page/#/yam/proposal/Qma5N6xV4nkzBALgGZMSD8L7A7mrsrRMntXpx2xT1MGPbu)
 [YIP-100 : Require 1 YAM burn for proposals](https://snapshot.page/#/yam/proposal/QmUntcMz42wQeeSr1DiYcc6j1iukn6ua2TPtyv4h8TZRZE)
+
+# YAM Relaunch Government: Approved Proposals
+
+Approved Proposals, submitted by the Core Dev Team:
+
+[YIP-1: MaxSlippage Modification](https://snapshot.page/#/yam/proposal/QmeaUEb6y8xqdL28VmCNNEELihbdX2N7corG5KdmcHdzzE)
+[YIP-2: RebaseLag Modification](https://snapshot.page/#/yam/proposal/QmVzvqJwnnEhnJGxDoKZNNkeRXvrmscrhwpLbZrQxw1mkf)
+
