@@ -2,7 +2,7 @@
 title: YAM Uniswap Farming
 description: provide liquidity, stake, get YAMs
 published: true
-date: 2020-09-28T01:40:14.001Z
+date: 2020-09-28T01:43:03.872Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:23:11.433Z
@@ -14,8 +14,11 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 # YAM Uniswap LP
 
+- There us currently only one incentivized rewards pool in the new Yam protocol. The YAM/yUSD Uniswap LP pool will receive rewards totalling approximately 925k YAMs, with 92.5k distributed the first week and decreasing by 10% each following. These rewards will begin 1 day after the launch of the protocol.
 
-- Please be advised that ONLY the YAM/yUSD and YAM/ETH pairs are safe in Uniswap during rebases.
+- On Sep 18, 2020, YAM Governance voted to add sync() functionality to the Uniswap YAM/ETH pool, making it safe to use during rebases. 
+
+- Please be advised that **only** the YAM/yUSD and YAM/ETH pairs are safe in Uniswap during rebases.
 
 ## Acquiring yUSD
 
