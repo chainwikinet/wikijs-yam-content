@@ -2,7 +2,7 @@
 title: Home
 description: Welcome to the YAM Community Chainwiki
 published: true
-date: 2020-09-27T21:06:20.681Z
+date: 2020-09-28T00:34:18.774Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T05:55:54.766Z
@@ -34,7 +34,7 @@ To dive deeper, feel free to explore the following links as well:
 
 
 > Join the [YAM Discord](https://discord.com/invite/D6BszDQ) and be a part of the conversation. 
-{.is-success}
+{.is-info}
 
 **Main:** - [https//yam.finance](https://yam.finance/)
 **Twitter:** - https://twitter.com/YamFinance
