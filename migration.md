@@ -2,7 +2,7 @@
 title: YAM Migration
 description: convert YAMv1 → YAMv2
 published: true
-date: 2020-09-28T02:18:33.009Z
+date: 2020-09-28T02:25:53.467Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-20T00:19:52.122Z
@@ -37,17 +37,17 @@ Also, please remember that people may try to trick you out of your YAMs. Before 
 - [Twitter: YAM Migration Announcement](https://twitter.com/YamFinance/status/1307021911667412992)
 - [Medium: YAM Replanting: Migration and Launch](https://medium.com/yam-finance/yam-replanting-migration-and-launch-997b4848b8d8)
 
-## LP Rewards
+# LP Rewards
 
 - There is only one incentivized rewards pool in the new Yam protocol. The `YAM/yUSD Uniswap LP` pool will receive rewards totalling approximately 925k YAMs, with 92.5k distributed the first week and decreasing by 10% each following. 
 
 - These rewards began 1 day after the launch of the protocol.
 
-## Delegator Rewards
+# Delegator Rewards
 
 - Delegators with equal to or under 27 votes will receive a flat 27 YAMv3 reward, while delegators with over 27 votes will receive a 1:1 YAMv3 reward for votes delegated. Rewards will be continually vested over 90 days.
 
-## General Protocol Updates and Information
+# General Protocol Updates and Information
 
 - `yUSD` (yyCRV) is YAM’s reserve asset and `YAM/yUSD` will be the incentivized pool from which the treasury purchases.
 
