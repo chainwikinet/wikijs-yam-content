@@ -2,7 +2,7 @@
 title: YAM Uniswap Farming
 description: provide liquidity, stake, get YAMs
 published: true
-date: 2020-09-28T01:43:03.872Z
+date: 2020-09-28T01:48:31.270Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:23:11.433Z
@@ -14,23 +14,45 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 # YAM Uniswap LP
 
-- There us currently only one incentivized rewards pool in the new Yam protocol. The YAM/yUSD Uniswap LP pool will receive rewards totalling approximately 925k YAMs, with 92.5k distributed the first week and decreasing by 10% each following. These rewards will begin 1 day after the launch of the protocol.
+- There us currently only one incentivized rewards pool in the new Yam protocol. The `YAM/yUSD` Uniswap LP pool will receive rewards totalling approximately 925k YAMs, with 92.5k distributed the first week and decreasing by 10% each following. These rewards will begin 1 day after the launch of the protocol.
 
-- On Sep 18, 2020, YAM Governance voted to add sync() functionality to the Uniswap YAM/ETH pool, making it safe to use during rebases. 
+- On Sep 18, 2020, YAM Governance voted to add sync() functionality to the Uniswap `YAM/ETH` pool, making it safe to use during rebases. 
 
-- Please be advised that **only** the YAM/yUSD and YAM/ETH pairs are safe in Uniswap during rebases.
+- Please be advised that **only** the `YAM/yUSD` and `YAM/ETH` pairs are safe in Uniswap during rebases.
 
 ## Acquiring yUSD
 
-The easiest ways to get yUSD:
+The easiest ways to get `yUSD`:
 
 1. Use zapper.fi to trade/wrap ETH/DAI/USDC/LINK/WBTC/yCRV into yUSD by visiting https://zapper.fi/invest and selecting Y Curve Vault.
 2. Trading for yUSD on Uniswap via https://app.uniswap.org/#/swap?inputCurrency=0x5dbcf33d8c2e976c6b560249878e6f1491bca25c
 
 The best option may depend on the size of your position and gas costs, so check each for the most efficient route.
 
+## Manage your YAM/yUSD LP
 
-# Stake Uniswap LP Shares
+Manage your `YAM/yUSD` deposit:
+- https://yam.finance/farms (official site)
+- https://vfat.tools/yam/ (independent 3rd party farming calculator)
+- directly on Etherscan [0x5b0501f7041120d36bc8c6dc3faea0b74b32a0ed](https://etherscan.io/address/0x5b0501f7041120d36bc8c6dc3faea0b74b32a0ed#writeContract)
+
+# How Positive Rebases Impact LPs
+
+Negative `rebase` occurs when the YAM price, according to the Uniswap TWAP oracle for the YAM:yCRV pool, is below $1.  Positive `rebase` occurs when the YAM price, according to the Uniswap TWAP oracle for the YAM:yCRV pool, is above $1.  Read the [rebase](/rebase) article for more context on rebasing.
+
+A negative `rebase` has no impact on Uniswap LPs.
+
+On positive rebases, the [YAM Reserve contract][etherscan-reserve] is supposed to receive 10% of the YAMs that are created by the rebase.  These are funds that YAM tokenholders have to fund governance proposals.
+
+The YAM Reserve doesn't keep the YAMs though, it immediately sells them for yCRV (~$1 USD stablecoin) using the Uniswap YAM:yCRV pool.  If this YAM selling would drop the YAM price in Uniswap by more than 10%, then it only sells enough YAMs to drop the price by 10% and it holds onto the remaining YAMs for future `rebase` cycles.
+
+Unfortunately, the [YAM rebase code was incorrect](/govern#saveyam-vote-delegation); instead of issuing 10% of new YAMs into the YAM Reserve, the YAM Reserve receives a **huge** number of YAMs.  It then uses these huge number of YAMs to buy enough yCRV from the Uniswap pool to drop the YAM price by 10%.  The purchased yCRV is then deposited into the YAM Reserve, which is unfortunately inaccessible due to the rebase bug.
+
+Regardless of how large the positive `rebase` is, a positive rebase will **always** result in the YAM Reserve selling enough YAMs into Uniswap to drop the YAM price there by 10%.
+
+
+
+# YAMv1 LP Farming
 
 > Wave1 staking for YAMv1 continues, but migration from YAMv1 to YAMv2 is now over. The following information is preserved for historical and technical interest.
 {.is-warning}
@@ -48,25 +70,9 @@ Manage your :rainbow:`Eternal Lands` deposit:
 {.is-info}
 
 
-# Uniswap Stakedrop Rewards
+## Uniswap Stakedrop Rewards
 
 Two-thirds of the YAM supply [will be distributed via this stakedrop](https://medium.com/@yamfinance/yam-finance-d0ad577250c7).  This is equivalent to 3,000,000 of the 5,000,000 "OG YAMs" (that is, YAM that has not been impacted by [rebasing](/rebase)).  In the first week, 1/3rd of the YAM supply will be distributed in this way; the stakedrop continues forever, but each qeek the reward will decrease by an additional 50%.
-
-
-# How Positive Rebases Impact LPs
-
-Negative `rebase` occurs when the YAM price, according to the Uniswap TWAP oracle for the YAM:yCRV pool, is below $1.  Positive `rebase` occurs when the YAM price, according to the Uniswap TWAP oracle for the YAM:yCRV pool, is above $1.  Read the [rebase](/rebase) article for more context on rebasing.
-
-A negative `rebase` has no impact on Uniswap LPs.
-
-On positive rebases, the [YAM Reserve contract][etherscan-reserve] is supposed to receive 10% of the YAMs that are created by the rebase.  These are funds that YAM tokenholders have to fund governance proposals.
-
-The YAM Reserve doesn't keep the YAMs though, it immediately sells them for yCRV (~$1 USD stablecoin) using the Uniswap YAM:yCRV pool.  If this YAM selling would drop the YAM price in Uniswap by more than 10%, then it only sells enough YAMs to drop the price by 10% and it holds onto the remaining YAMs for future `rebase` cycles.
-
-Unfortunately, the [YAM rebase code was incorrect](/govern#saveyam-vote-delegation); instead of issuing 10% of new YAMs into the YAM Reserve, the YAM Reserve receives a **huge** number of YAMs.  It then uses these huge number of YAMs to buy enough yCRV from the Uniswap pool to drop the YAM price by 10%.  The purchased yCRV is then deposited into the YAM Reserve, which is unfortunately inaccessible due to the rebase bug.
-
-Regardless of how large the positive `rebase` is, a positive rebase will **always** result in the YAM Reserve selling enough YAMs into Uniswap to drop the YAM price there by 10%.
-
 
 
 
