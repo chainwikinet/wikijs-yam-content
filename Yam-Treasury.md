@@ -2,7 +2,7 @@
 title: Yam Treasury
 description: on the community treasury 
 published: true
-date: 2020-09-27T23:23:45.752Z
+date: 2020-09-28T15:00:49.130Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T16:21:25.457Z
@@ -54,14 +54,28 @@ YAM Treasury inflow only happen during positive rebases. Here's a list of inflow
 | Epoch | Date Time    | Treasury Inflow (yUSD) | Treasury Inflow (YAM) | Gitcoin Inflow (yUSD) |  Rebase TX               |
 |-------|------------------------------|----------------------|---------------|--------|--------------------------|
 | 1     | Sep-21-2020 08:00:08 PM +UTC | 496,734  | 214,321     | 4,967   | [0x9dac453a...][rebase_1] |    
-| 2     | Sep-22-2020 08:01:20 AM +UTC | 191,258  | 204,284     | 1,912   | [0x9dac453a...][rebase_2] |    
-| 3     | Sep-22-2020 08:00:31 PM +UTC | 189,155  | 76,671     | 1,891   | [0x9dac453a...][rebase_3] |  
+| 2     | Sep-22-2020 08:01:20 AM +UTC | 191,258  | 204,284     | 1,912   | [0x1ea2025f...][rebase_2] |    
+| 3     | Sep-22-2020 08:00:31 PM +UTC | 189,155  | 76,671     | 1,891   | [0x3c099586...][rebase_3] |  
+| 4     | Sep-23-2020 08:01:37 AM +UTC | 152,597  | 44,185     | 1,526   | [0x4534897c...][rebase_4] |    
+| 5     | Sep-23-2020 08:01:42 PM +UTC | 155,336  | 13,633     | 1,553   | [0x25571ac9...][rebase_5] |    
+| 6     | Sep-24-2020 08:02:56 AM +UTC | 132,716  | 21,312     | 1,327   | [0xf0dd6592...][rebase_6] |  
+| 7     | Sep-24-2020 08:00:52 PM +UTC | 245,790  | 47,775     | 2,458   | [0x3def381c...][rebase_7] |    
+
 
 [rebase_1]: https://etherscan.io/tx/0x9dac453a1f26125525ca048f96c472e2883252de974ec382d76086f19eba25a9
 [rebase_2]: 
 https://etherscan.io/tx/0x1ea2025fb21ad277983b745d747345a2cc7e85aab55a45745985f90b926d5b93
 [rebase_3]: 
 https://etherscan.io/tx/0x3c0995865aaa965713dba860e569c2af0b2b72a130f5c667100500e01d72714a
+[rebase_4]: 
+https://etherscan.io/tx/0x4534897c9468406172aa5adf6f24c2f509e95f621073aaedfcc83daadb2924cd
+[rebase_5]: 
+https://etherscan.io/tx/0x25571ac97cc1708243819b7313ad0ac8f23aabcdc5fe8d426c15f0ddffd93855
+[rebase_6]: 
+https://etherscan.io/tx/0xf0dd6592ff8397333fdb660e5457260ce57113cab17903805df3a0f300da6875
+[rebase_7]: 
+https://etherscan.io/tx/0x3def381c3bd958958627550b1573f1f3cd1313407fdb19a966b1b8f1278acba6
+
 
 # YAM Treasury ELI5 Infographics
 
