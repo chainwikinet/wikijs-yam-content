@@ -2,7 +2,7 @@
 title: YAM Migration
 description: convert YAMv1 → YAMv2
 published: true
-date: 2020-09-27T20:46:51.673Z
+date: 2020-09-28T01:04:22.871Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-20T00:19:52.122Z
@@ -15,6 +15,44 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 
 
+# YAM Migration
+
+- After a long and eventful month since the original launch of YAM, the YAM team announced that a fully functional and audited Yam protocol will be relaunching on Friday, September 18, 2020.
+
+- The replanting of YAMs comes after an active and thoughtful interim governance period, during which the community came to consensus on all key issues for V3’s launch, as well as after a successful audit by PeckShield.
+
+- The full audit can be found [here](https://github.com/yam-finance/yamV3/blob/master/PeckShield-Audit-Report-YAMv3-v1.0.pdf) — all issues found by the auditors have been addressed. In addition to the audit work, the remaining Gitcoin Grant funds will be used to sponsor a bug bounty.
+
+- A full summary of the interim governance can be found [here](https://medium.com/@yamfinance/the-road-to-v3-yamv2-interim-governance-summary-f17ba4a9d1aa).
+
+## Migration from YAMv2 to fully functional YAM:
+
+- YAMv2 to YAMv3 migration is 1:1 with no deadline, with 50% immediately redeemable and 50% continuously vested over 30 days.
+
+## LP Rewards
+
+- There is only one incentivized rewards pool in the new Yam protocol. The YAM/yUSD Uniswap LP pool will receive rewards totalling approximately 925k YAMs, with 92.5k distributed the first week and decreasing by 10% each following. 
+
+- These rewards began 1 day after the launch of the protocol.
+
+## Delegator Rewards
+
+- Delegators with equal to or under 27 votes will receive a flat 27 YAMv3 reward, while delegators with over 27 votes will receive a 1:1 YAMv3 reward for votes delegated. Rewards will be continually vested over 90 days.
+
+## YAMv1 Missed Migration
+
+- A multisig was created to assist users who missed the initial migration from V1 to V2. This assistance will not apply to any YAMv1 purchased after the migration window closed.
+
+## General Protocol Updates and Information
+
+- yUSD (yyCRV) is YAM’s reserve asset and YAM/yUSD will be the incentivized pool from which the treasury purchases.
+
+- YAM/ETH Uniswap LP pool will have sync() called and be safe for liquidity provision, though not incentivized.
+
+- The team is excited to be officially launching the fully functional YAM protocol, bringing to life the originally intended experiment. The team has learned a lot on this journey, and the community is well prepared to build Yam into an innovative and successful protocol.
+
+
+# YAMv1 to YAMv2 Migration
 
 
 > The YAMv1 → YAMv2 migration is now over. The following information is preserved for technical and historical interest.
@@ -22,27 +60,13 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 
 
-# Migration Is Now Over
+## What You Need To Do
 
-Migration is now over, and it is no longer possible to convert YAMv1 to YAMv2.
+- Leave enough time before the deadline to ensure that your migration transactions confirm with plenty of time to spare.  Migrations that confirm after the deadline will fail!
 
-The migration period [ran for 72 hours and ended on 2020-08-22 16:20 UTC](https://medium.com/@yamfinance/yam-migration-live-955c63766ab8).  The migration timeline was decided on by the YAM Finance launch team and the length of the migration window was [hardcoded into the migration contract](https://etherscan.io/address/0xf1d7c9E4c57a5C1902f4A4aE2630d2Da78Ffb1c1#readContract).  It is not possible for anyone, including the YAM Finance team, to reopen the migration.
+- You have a three-day (72 hour) window to migrate your YAM tokens to YAMv2.
 
-If you still hold YAMv1 tokens, these tokens will remain YAMv1 tokens.
-
-You can still [sell YAMv1 tokens on Uniswap](/trade).  Join the discussion on [YAM Discord](/team).
-
-
-
-
-# What You Need To Do
-
-> Leave enough time before the deadline to ensure that your migration transactions confirm with plenty of time to spare.  Migrations that confirm after the deadline will fail!
-{.is-warning}
-
-You have a three-day (72 hour) window to migrate your YAM tokens to YAMv2.
-
-The clock is already ticking, so do not delay—migrate now.
+- The clock is already ticking, so do not delay—migrate now.
 
 
 ## 1. Don't get YAM scammed
@@ -97,12 +121,19 @@ The second transaction will call `migrate` on the migration contract, `0xf1d7c9E
 
 ## 5. Listen for official announcements
 
-> A timeline for the migration from YAMv2 to YAMv3 has not been announced.  Don't get YAM scammed!
-{.is-warning}
-
 Follow the [official yam.finance social media accounts and Discord chat](/team) for announcements.  Come hang out with us on Discord!  Contribute to this wiki!
 
 Migration from YAMv2 to YAMv3 will probably not have a deadline, so don't believe anyone that tries to trick you into giving up your YAM.
+
+## Migration Is Now Over
+
+Migration is now over.
+
+The migration period [ran for 72 hours and ended on 2020-08-22 16:20 UTC](https://medium.com/@yamfinance/yam-migration-live-955c63766ab8).  The migration timeline was decided on by the YAM Finance launch team and the length of the migration window was [hardcoded into the migration contract](https://etherscan.io/address/0xf1d7c9E4c57a5C1902f4A4aE2630d2Da78Ffb1c1#readContract).  It is not possible for anyone, including the YAM Finance team, to reopen the migration.
+
+If you still hold YAMv1 tokens, these tokens will remain YAMv1 tokens.
+
+You can still [sell YAMv1 tokens on Uniswap](/trade).  Join the discussion on [YAM Discord](/team).
 
 
 
