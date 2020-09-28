@@ -2,7 +2,7 @@
 title: YAM Markets
 description: trade YAMs
 published: true
-date: 2020-09-27T23:47:54.607Z
+date: 2020-09-28T01:14:53.647Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:23:41.115Z
@@ -15,7 +15,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 # YAM
 
 The YAM Token on Etherscan:
-https://etherscan.io/token/0x0aacfbec6a24756c20d41914f2caba817c0d8521
+- https://etherscan.io/token/0x0aacfbec6a24756c20d41914f2caba817c0d8521
 
 > verify the token address in multiple places — don't get tricked by fake YAMs!
 {.is-info}
@@ -23,7 +23,7 @@ https://etherscan.io/token/0x0aacfbec6a24756c20d41914f2caba817c0d8521
 YAM is available to be traded:
 - [YAM/ETH Uniswap Pool](https://app.uniswap.org/#/swap?outputCurrency=0x0aacfbec6a24756c20d41914f2caba817c0d85210)
 
-YAM market dashboards: 
+YAM Market Dashboards: 
 - https://www.coingecko.com/en/coins/yam/usd
 - https://uniswap.info/token/0x0AaCfbeC6a24756c20D41914F2caba817C0d8521
 - https://coinmarketcap.com/currencies/yamv3/
@@ -40,49 +40,24 @@ YAM market dashboards:
 While YAMv2 has no team support and can no longer be developed, YAMv2 can still be bought, sold, and migrated to the current YAM token. 
 
 The YAMv2 Token on Etherscan:
-https://etherscan.io/token/0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a
+- https://etherscan.io/token/0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a
 
-Trade for YAMv2 on Uniswap: https://app.uniswap.org/#/swap?outputCurrency=0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a
+YAMv2 is available to be traded:
+- [YAMv2/ETH Uniswap Pool](https://app.uniswap.org/#/swap/0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a)
 
-YAMv2 market dashboards:
+YAMv2 Market Dashboards: 
 - https://www.coingecko.com/en/coins/yam-v2
 - https://coinmarketcap.com/currencies/yam-v2
 - https://uniswap.info/token/0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a
 
 ## YAMv1
 
-While YAMv1 can still be bought and sold, migration from YAMv1 to YAMv2/YAM has been closed. YAMv1 can no longer be converted. 
+YAMv1 is inactive and has deprecated completely. The following information is just for educational purposes.
 
-This is the YAMv1 token: https://etherscan.io/token/0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16
-
-The YAMv1 token is an upgradeable proxy token, which is a permanent address that can be adjusted to point at a new implementation address that encodes new token logic.  The current YAM token implementation contract is stored in a variable called `implementation` in the YAM proxy contract.
-
-The current YAMv1 token implementation contract: https://etherscan.io/address/0xa923af6d05993495257a872ec69dbbf01501eb0e
-
-## YAMv1 Uniswap
-
-Trade for YAMv2 on Uniswap: https://app.uniswap.org/#/swap?outputCurrency=0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16
-
-YAMv1 market dashboards:
-- https://www.coingecko.com/en/coins/yam
-- https://coinmarketcap.com/currencies/yam
-- YAMv1 on Uniswap: https://uniswap.info/token/0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16
-- "official" YAMv1:yCRV pool: https://uniswap.info/pair/0x2c7a51a357d5739c5c74bf3c96816849d2c9f726
-
-
-## YAMv1 Uniswap LP Warnings
-
-> Providing liquidity on Uniswap is for advanced users. You may lose funds! Understand the risks before attempting!
+The YAMv1 Token on Etherscan: 
+- https://etherscan.io/token/0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16
+> YAMv1 is inactive and has deprecated completely. Do not purchase!
 {.is-warning}
 
-There were concerns that a problem in the [YAMv1 rebasing contract](/rebase) could cause issues for liquidity providers (LPs) in the YAM:yCRV Uniswap pool (YAM-yDAI+yUSDC+yUSDT+yTUSD Pair) if YAMv1 underwent a positive rebase.  These concerns are no longer valid because positive rebasing is now broken.
-
-Some pools were not recognized by the [YAMv1 rebaser contract](/rebase), and therefore LPs providing liquidity in these pools were NOT guaranteed to receive their share of positive rebases.  This includes the [YAMv1-ETH pool](https://uniswap.info/pair/0xc358001a71b3160b4b243d6e8c6f52579f82215e).  However, positive rebasing is now broken and this is no longer a concern.
-
-
-
-
-
-
-
-[uniswap-warning]: https://medium.com/@yamfinance/how-to-exit-the-eternal-lands-pool-and-withdraw-your-yam-823d57c95f3a
+YAMv1 market dashboards:
+- https://www.coingecko.com/en/coins/yam-v1
