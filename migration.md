@@ -1,8 +1,8 @@
 ---
 title: YAM Migration
-description: convert YAMv1 → YAMv2
+description: convert your YAMs
 published: true
-date: 2020-09-28T02:25:53.467Z
+date: 2020-09-28T02:31:01.231Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-20T00:19:52.122Z
