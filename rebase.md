@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-09-28T02:24:42.509Z
+date: 2020-09-28T14:42:28.973Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:24:24.103Z
@@ -52,14 +52,49 @@ YAM rebases happen every 12 hours: 8AM and 8PM UTC.  At this time, the `rebase` 
 |-------|------------------------------|----------------------|------------|--------|--------------------------|
 | 0     | Sep-18-2020 08:00:00 PM +UTC | 1000000000000000000  | 1   YAM    | ----   | ----     
 | 1     | Sep-21-2020 08:00:08 PM +UTC | 2486001344653995715  | 2.5 YAM    | +250%  | [0x9dac453a...][rebase_1] |
-| 2     | Sep-22-2020 08:01:20 AM +UTC | 3425000902517305968  | 3.4 YAM    | +36%  | [0x9dac453a...][rebase_2] |
-| 3     | Sep-22-2020 08:00:31 PM +UTC | 3762524849867419026  | 3.8 YAM    | +12%  | [0x9dac453a...][rebase_3] |
+| 2     | Sep-22-2020 08:01:20 AM +UTC | 3425000902517305968  | 3.4 YAM    | +36%  | [0x1ea2025f...][rebase_2] |
+| 3     | Sep-22-2020 08:00:31 PM +UTC | 3762524849867419026  | 3.8 YAM    | +12%  | [0x3c099586...][rebase_3] |
+| 4     | Sep-23-2020 08:01:37 AM +UTC | 3954066527091767530  | 3.9 YAM    | +3%  | [0x4534897c...][rebase_4] |
+| 5     | Sep-23-2020 08:01:42 PM +UTC | 4012483530177891830  | 4.0 YAM    | +1%  | [0x25571ac9...][rebase_5] |
+| 6     | Sep-24-2020 08:02:56 AM +UTC | 4103195251312551828  | 4.1 YAM    | +1%  | [0xf0dd6592...][rebase_6] |
+| 7     | Sep-24-2020 08:00:52 PM +UTC | 4302926034062427367  | 4.3 YAM    | +0.5%  | [0x3def381c...][rebase_7] |
+| 8     | Sep-25-2020 08:03:17 AM +UTC | 4670188072745410097  | 4.6 YAM    | +0.8%  | [0xbe340446...][rebase_8] |
+| 9     | Sep-25-2020 08:00:02 PM +UTC | 5085663579600447761  | 5.1 YAM    | +1%  | [0xdcd758b5...][rebase_9] |
+| 10     | Sep-26-2020 08:02:46 AM +UTC | 5426801294828869565  | 5.4 YAM    | +1%  | [0xacc5e27c...][rebase_10] |
+| 11    | Sep-26-2020 08:00:17 PM +UTC | 5673417245561390717  | 5.6 YAM    | +0.5%  | [0xb6607a89...][rebase_11] |
+| 12    | Sep-27-2020 08:03:35 AM +UTC | 5942102731314059486  | 5.9 YAM    | +0.5%  | [0x9bd2c3dd...][rebase_12] |
+| 13    | Sep-27-2020 08:00:02 PM +UTC | 6169443645918722336  | 6.2 YAM    | +0.5%  | [0x1a620941...][rebase_13] |
+| 14    | Sep-28-2020 08:13:27 AM +UTC | 6329698196523564055  | 6.3 YAM    | +0.3%  | [0x23e28821...][rebase_14] |
+
 
 [rebase_1]: https://etherscan.io/tx/0x9dac453a1f26125525ca048f96c472e2883252de974ec382d76086f19eba25a9
 [rebase_2]: 
 https://etherscan.io/tx/0x1ea2025fb21ad277983b745d747345a2cc7e85aab55a45745985f90b926d5b93
 [rebase_3]: 
 https://etherscan.io/tx/0x3c0995865aaa965713dba860e569c2af0b2b72a130f5c667100500e01d72714a
+[rebase_4]: 
+https://etherscan.io/tx/0x4534897c9468406172aa5adf6f24c2f509e95f621073aaedfcc83daadb2924cd
+[rebase_5]: 
+https://etherscan.io/tx/0x25571ac97cc1708243819b7313ad0ac8f23aabcdc5fe8d426c15f0ddffd93855
+[rebase_6]: 
+https://etherscan.io/tx/0xf0dd6592ff8397333fdb660e5457260ce57113cab17903805df3a0f300da6875
+[rebase_7]: 
+https://etherscan.io/tx/0x3def381c3bd958958627550b1573f1f3cd1313407fdb19a966b1b8f1278acba6
+[rebase_8]: 
+https://etherscan.io/tx/0xbe3404464c9012c65a65f5d55887bc4a9ab4f7cefafe5d9710b9ff1d6d366e36
+[rebase_9]: 
+https://etherscan.io/tx/0xdcd758b5cfa36badeebedda0686b1d7ff36873abc334fa15293ad3d84f5ba23a
+[rebase_10]: 
+https://etherscan.io/tx/0xacc5e27c9caec97985f41eb61a6d63dd2364bf3703265f0de55055b7c69d1df4
+[rebase_11]: 
+https://etherscan.io/tx/0xb6607a893bb6e5b1a1b40c52b737125cfc266f9ff98f1623da7adbacd49cb273
+[rebase_12]: 
+https://etherscan.io/tx/0x9bd2c3dd021fdc939560c09047c935eca2246e45eddc20a3a4d4e25d53e0d675
+[rebase_13]: 
+https://etherscan.io/tx/0x1a620941b3f42525d28d25c369eee8033149f9e17c7d9308c70ac7bd6a1c8368
+[rebase_14]: 
+https://etherscan.io/tx/0x23e288218a9420d0070c68fdf1989fc55565f754a7aa7e54907b8f3c1d5be009
+
 
 # YAM Rebasing ELI5 Infographics
 
