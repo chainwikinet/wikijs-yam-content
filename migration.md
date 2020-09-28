@@ -2,7 +2,7 @@
 title: YAM Migration
 description: convert YAMv1 → YAMv2
 published: true
-date: 2020-09-28T02:05:12.293Z
+date: 2020-09-28T02:08:45.067Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-20T00:19:52.122Z
@@ -31,6 +31,11 @@ Migration is now availalble from `YAMv2` to a fully functional `YAM`. `YAMv2` to
 1. Hold your `YAMv2` in a wallet that you control, such as Metamask or Trust.
 2. Follow the instructions on [yam.finance](https://yam.finance/) to connect your wallet and perform the migration.
 3. Because `YAM` is new, some wallets may not display the `YAM` token immediately after migration. To add `YAM` in Metamask, [follow these instructions to add a custom token](https://metamask.zendesk.com/hc/en-us/articles/360015489031-How-to-View-See-Your-Tokens-in-Metamask) and paste in the YAMv2 token address when requested: `0x0aacfbec6a24756c20d41914f2caba817c0d8521`
+
+Also, please remember that people may try to trick you out of your YAMs. Before you take any action, verify that this article is legitimate!
+
+- [Twitter: YAM Migration Announcement](https://twitter.com/YamFinance/status/1307021911667412992)
+- [Medium: YAM Replanting: Migration and Launch](https://medium.com/yam-finance/yam-replanting-migration-and-launch-997b4848b8d8)
 
 ## LP Rewards
 
