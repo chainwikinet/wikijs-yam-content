@@ -2,7 +2,7 @@
 title: YAM Tech
 description: code n stuff
 published: true
-date: 2020-09-28T00:21:03.367Z
+date: 2020-09-28T00:21:36.325Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-28T00:21:03.367Z
@@ -14,12 +14,16 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 
 
+
+
 # Relevant YAM Contracts
 
 - YAM Token:
 https://etherscan.io/token/0x0aacfbec6a24756c20d41914f2caba817c0d8521
-- YAM Governor: https://etherscan.io/address/0x62702387c2a26c903985e9d078d18c45acae0908
-- YAM Timelock: https://etherscan.io/address/0x8b4f1616751117c38a0f84f9a146cca191ea3ec5
+- YAM Governor: 
+https://etherscan.io/address/0x62702387c2a26c903985e9d078d18c45acae0908
+- YAM Timelock: 
+https://etherscan.io/address/0x8b4f1616751117c38a0f84f9a146cca191ea3ec5
 - YAM Migrator:
 https://etherscan.io/address/0x72cfed9293cbfb2bfc7515c413048c697c6c811c
 - YAM Rebaser:
