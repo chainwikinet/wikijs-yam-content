@@ -2,7 +2,7 @@
 title: Yam Treasury
 description: on the community treasury 
 published: true
-date: 2020-09-28T15:00:49.130Z
+date: 2020-09-28T15:05:01.523Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T16:21:25.457Z
@@ -60,6 +60,8 @@ YAM Treasury inflow only happen during positive rebases. Here's a list of inflow
 | 5     | Sep-23-2020 08:01:42 PM +UTC | 155,336  | 13,633     | 1,553   | [0x25571ac9...][rebase_5] |    
 | 6     | Sep-24-2020 08:02:56 AM +UTC | 132,716  | 21,312     | 1,327   | [0xf0dd6592...][rebase_6] |  
 | 7     | Sep-24-2020 08:00:52 PM +UTC | 245,790  | 47,775     | 2,458   | [0x3def381c...][rebase_7] |    
+| 8     | Sep-25-2020 08:03:17 AM +UTC | 259,235 | 89,257     | 2,592   | [0xbe340446...][rebase_8] |
+| 9     | Sep-25-2020 08:00:02 PM +UTC | 178,587 | 0     | 1,785   | [0xdcd758b5...][rebase_9] |       
 
 
 [rebase_1]: https://etherscan.io/tx/0x9dac453a1f26125525ca048f96c472e2883252de974ec382d76086f19eba25a9
@@ -75,7 +77,10 @@ https://etherscan.io/tx/0x25571ac97cc1708243819b7313ad0ac8f23aabcdc5fe8d426c15f0
 https://etherscan.io/tx/0xf0dd6592ff8397333fdb660e5457260ce57113cab17903805df3a0f300da6875
 [rebase_7]: 
 https://etherscan.io/tx/0x3def381c3bd958958627550b1573f1f3cd1313407fdb19a966b1b8f1278acba6
-
+[rebase_8]: 
+https://etherscan.io/tx/0xbe3404464c9012c65a65f5d55887bc4a9ab4f7cefafe5d9710b9ff1d6d366e36
+[rebase_9]: 
+https://etherscan.io/tx/0xdcd758b5cfa36badeebedda0686b1d7ff36873abc334fa15293ad3d84f5ba23a
 
 # YAM Treasury ELI5 Infographics
 
