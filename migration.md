@@ -2,7 +2,7 @@
 title: YAM Migration
 description: convert YAMv1 → YAMv2
 published: true
-date: 2020-09-28T02:16:45.142Z
+date: 2020-09-28T02:18:33.009Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-20T00:19:52.122Z
@@ -39,7 +39,7 @@ Also, please remember that people may try to trick you out of your YAMs. Before 
 
 ## LP Rewards
 
-- There is only one incentivized rewards pool in the new Yam protocol. The YAM/yUSD Uniswap LP pool will receive rewards totalling approximately 925k YAMs, with 92.5k distributed the first week and decreasing by 10% each following. 
+- There is only one incentivized rewards pool in the new Yam protocol. The `YAM/yUSD Uniswap LP` pool will receive rewards totalling approximately 925k YAMs, with 92.5k distributed the first week and decreasing by 10% each following. 
 
 - These rewards began 1 day after the launch of the protocol.
 
@@ -49,19 +49,19 @@ Also, please remember that people may try to trick you out of your YAMs. Before 
 
 ## General Protocol Updates and Information
 
-- yUSD (yyCRV) is YAM’s reserve asset and YAM/yUSD will be the incentivized pool from which the treasury purchases.
+- `yUSD` (yyCRV) is YAM’s reserve asset and `YAM/yUSD` will be the incentivized pool from which the treasury purchases.
 
-- YAM/ETH Uniswap LP pool will have sync() called and be safe for liquidity provision, though not incentivized.
+- `YAM/ETH Uniswap LP pool` will have sync() called and be safe for liquidity provision, though not incentivized.
 
 - The team is excited to be officially launching the fully functional YAM protocol, bringing to life the originally intended experiment. The team has learned a lot on this journey, and the community is well prepared to build Yam into an innovative and successful protocol.
 
 # YAMv1 Missed Migration
 
-- Migration for YAMv1 to YAMv2 is currently closed. 
-- The v1 to v2 migration period [ran for 72 hours and ended on 2020-08-22 16:20 UTC](https://medium.com/@yamfinance/yam-migration-live-955c63766ab8).  The migration timeline was decided on by the YAM Finance launch team and the length of the migration window was [hardcoded into the migration contract](https://etherscan.io/address/0xf1d7c9E4c57a5C1902f4A4aE2630d2Da78Ffb1c1#readContract).  It is not possible for anyone, including the YAM Finance team, to reopen the migration.
-- YAM Governance [voted](https://snapshot.page/#/yam/proposal/QmSwFus2RLkoNJRSm2VTrAxjdRQc23RrWY7W6s675CXnzi) to set aside funds to assist users who missed the YAMv1 → YAMv2 migration (except for dust accounts, accounts with YAMs only in Uniswap, and unharvested yield accrued to LPs but never claimed.)
+- Migration for `YAMv1 to YAMv2` is currently closed. 
+- The `YAMv1 to YAMv2` migration period [ran for 72 hours and ended on 2020-08-22 16:20 UTC](https://medium.com/@yamfinance/yam-migration-live-955c63766ab8).  The migration timeline was decided on by the YAM Finance launch team and the length of the migration window was [hardcoded into the migration contract](https://etherscan.io/address/0xf1d7c9E4c57a5C1902f4A4aE2630d2Da78Ffb1c1#readContract).  It is not possible for anyone, including the YAM Finance team, to reopen the migration.
+- YAM Governance [voted](https://snapshot.page/#/yam/proposal/QmSwFus2RLkoNJRSm2VTrAxjdRQc23RrWY7W6s675CXnzi) to set aside funds to assist users who missed the `YAMv1 → YAMv2` migration (except for dust accounts, accounts with YAMs only in Uniswap, and unharvested yield accrued to LPs but never claimed.)
 - A multisig was created to assist users who missed the initial migration from V1 to V2. This assistance will not apply to any YAMv1 purchased after the migration window closed.
-- The multisig members are YAM co-founder Trent Elmore, and community moderators huntingisland, Brandon Curtis, HodlDwon, and chillzone. 
-- If you need assistance with v1 rescue, please reach out to one of the multisig members on the [YAM Discord.](https://discord.gg/WrzyGvP)
+- The multisig members are YAM co-founder `Trent Elmore`, and community moderators `huntingisland`, `Brandon Curtis`, `HodlDwon`, and `chillzone`. 
+- If you need assistance with `YAMv1` rescue, please reach out to one of the multisig members on the [YAM Discord.](https://discord.gg/WrzyGvP)
 
 
