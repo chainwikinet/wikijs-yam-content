@@ -2,7 +2,7 @@
 title: YAM Tech
 description: code n stuff
 published: true
-date: 2020-09-28T00:31:08.327Z
+date: 2020-09-28T00:31:31.761Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-28T00:21:03.367Z
@@ -20,7 +20,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 # Contract Audit
 
-To help maintain utmost security on the YAM Contracts, the YAM Team [hired](https://twitter.com/peckshield/status/1305576589820747777?s=20) [Peckshield](https://peckshield.com/en) to audit the YAMv3 code.
+To help ensure high security on the YAM Contracts, the YAM Team [hired](https://twitter.com/peckshield/status/1305576589820747777?s=20) [Peckshield](https://peckshield.com/en) to audit the YAMv3 code.
 
 The full audit report can be found here:
 
