@@ -2,7 +2,7 @@
 title: YAM Tech
 description: code n stuff
 published: true
-date: 2020-09-28T00:21:36.325Z
+date: 2020-09-28T00:27:54.214Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-28T00:21:03.367Z
@@ -13,7 +13,22 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 ```
 
 
+# Official UI and Code
 
+- https://github.com/yam-finance
+- https://yam.finance
+
+# Contract Audit
+
+To help maintain utmost security on the YAM Contracts, the YAM Team hired Peckshield to audit the YAMv3 code.
+
+The full audit report can be found here:
+
+https://github.com/yam-finance/yamV3/blob/master/PeckShield-Audit-Report-YAMv3-v1.0.pdf
+
+Peckshield had this to say about the YAMv3 code in the conclusion of the audit:
+
+> In this audit, we thoroughly analyzed the YAMv3 design and implementation. We truly believe that YAM presents an interesting and novel experiment of on-chain community-based governance and elastic supply cryptocurrency, and we are very impressed by the overall design and implementation. The current code base is well organized and those identified issues are promptly confirmed and fixed.
 
 
 # Relevant YAM Contracts
