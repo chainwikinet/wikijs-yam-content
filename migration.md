@@ -2,7 +2,7 @@
 title: YAM Migration
 description: convert YAMv1 → YAMv2
 published: true
-date: 2020-09-28T01:04:22.871Z
+date: 2020-09-28T02:05:12.293Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-20T00:19:52.122Z
@@ -17,7 +17,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 # YAM Migration
 
-- After a long and eventful month since the original launch of YAM, the YAM team announced that a fully functional and audited Yam protocol will be relaunching on Friday, September 18, 2020.
+- After a long and eventful month since the original launch of YAM, the YAM team announced that a fully functional and audited YAM protocol will be relaunching on Friday, September 18, 2020.
 
 - The replanting of YAMs comes after an active and thoughtful interim governance period, during which the community came to consensus on all key issues for V3’s launch, as well as after a successful audit by PeckShield.
 
@@ -25,9 +25,12 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 - A full summary of the interim governance can be found [here](https://medium.com/@yamfinance/the-road-to-v3-yamv2-interim-governance-summary-f17ba4a9d1aa).
 
-## Migration from YAMv2 to fully functional YAM:
+# How to Migrate
 
-- YAMv2 to YAMv3 migration is 1:1 with no deadline, with 50% immediately redeemable and 50% continuously vested over 30 days.
+Migration is now availalble from `YAMv2` to a fully functional `YAM`. `YAMv2` to `YAM` migration is 1:1 with no deadline, with 50% immediately redeemable and 50% continuously vested over 30 days.
+1. Hold your `YAMv2` in a wallet that you control, such as Metamask or Trust.
+2. Follow the instructions on [yam.finance](https://yam.finance/) to connect your wallet and perform the migration.
+3. Because `YAM` is new, some wallets may not display the `YAM` token immediately after migration. To add `YAM` in Metamask, [follow these instructions to add a custom token](https://metamask.zendesk.com/hc/en-us/articles/360015489031-How-to-View-See-Your-Tokens-in-Metamask) and paste in the YAMv2 token address when requested: `0x0aacfbec6a24756c20d41914f2caba817c0d8521`
 
 ## LP Rewards
 
