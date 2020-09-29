@@ -2,7 +2,7 @@
 title: Home
 description: Welcome to the YAM Community Chainwiki
 published: true
-date: 2020-09-29T16:10:01.487Z
+date: 2020-09-29T16:11:56.684Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T05:55:54.766Z
@@ -22,6 +22,15 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 - On-chain governance
 
 At its core, YAM is an `elastic supply cryptocurrency`, which expands and contracts supply in response to market conditions, initially targeting `1 yUSD per YAM`. This stability mechanism is supplemented by one key addition to existing elastic supply models: a portion of each supply expansion is used to buy yUSD (a high-yield USD-denominated stablecoin) and added it to the Yam treasury, which is controlled via Yam community governance.
+
+# Fair Launch
+
+YAM was launched using a fair distribution method inspired by `YFI`, in which users could stake cryptocurrencies to receive a pro rata distribution of YAM each block. There was no premine, and neither the launch team nor VCs received any shares outside the prescribed rules of distribution to which all had access.
+
+The goal of this distribution had two goals:
+
+- To ensure Yam was truly a `community owned and governed protocol`.
+- To align interests with the communities of the staked tokens, all of which had potential value and experience to add to the Yam protocol
 
 
 # YAM Resources
