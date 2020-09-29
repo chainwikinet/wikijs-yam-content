@@ -2,7 +2,7 @@
 title: Home
 description: Welcome to the YAM Community Chainwiki
 published: true
-date: 2020-09-29T16:12:55.834Z
+date: 2020-09-29T16:16:41.984Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T05:55:54.766Z
@@ -31,6 +31,16 @@ The goal of this distribution had two goals:
 
 - To ensure Yam was truly a `community owned and governed protocol`.
 - To align interests with the communities of the staked tokens, all of which had potential value and experience to add to the Yam protocol
+
+# Decentralized Governance
+
+YAM launched with `fully decentralized governance` from Day 1 by implementing the Compound governance module. This gives control of the protocol to YAM tokenholders, meaning that updates to the protocol and management of the treasury can only be performed with approval from YAM holders.
+
+The governance process begins on the [Yam Governance Forum](https://forum.yam.finance/) where proposals are first submitted for discussion. If the community signals its interest and any necessary modifications to the proposal are made, the proposal is submitted to Snapshot off-chain governance, where tokenholders can vote with their token balances.
+
+If a Snapshot proposal is passed and no code is required to be implemented, the approved action can be taken.
+
+If code deployment is required, the code will go to audit if necessary, and then be proposed via on-chain governance at which point tokenholders will vote once more to deploy.
 
 
 # YAM Resources
