@@ -2,7 +2,7 @@
 title: Home
 description: Welcome to the YAM Community Chainwiki
 published: true
-date: 2020-09-28T00:34:18.774Z
+date: 2020-09-29T16:10:01.487Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T05:55:54.766Z
@@ -15,11 +15,14 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 ```
 
 
-Yam is an experimental protocol mashing up some of the most exciting innovations in programmable money and governance. Built by a team of DeFi natives, it features:
-- an elastic supply to seek eventual price stability
-- a governable treasury to further support stability
-- fully on-chain governance to enable decentralized control and evolution from Day 1
-- a fair distribution mechanism that incentivizes key community members to actively take the reins of governance
+`Yam Protocol` mashes up some of the most exciting innovations in programmable money and governance. Built by a team of DeFi natives, but now controlled by the community, it features:
+- `Fair distribution` with no premine, founder shares, or VC shares
+- An elastic supply
+- A `governable treasury`
+- On-chain governance
+
+At its core, YAM is an `elastic supply cryptocurrency`, which expands and contracts supply in response to market conditions, initially targeting `1 yUSD per YAM`. This stability mechanism is supplemented by one key addition to existing elastic supply models: a portion of each supply expansion is used to buy yUSD (a high-yield USD-denominated stablecoin) and added it to the Yam treasury, which is controlled via Yam community governance.
+
 
 # YAM Resources
 
