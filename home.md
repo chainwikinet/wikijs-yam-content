@@ -2,7 +2,7 @@
 title: Home
 description: Welcome to the YAM Community Chainwiki
 published: true
-date: 2020-09-29T16:16:41.984Z
+date: 2020-09-29T16:17:34.026Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T05:55:54.766Z
@@ -31,6 +31,18 @@ The goal of this distribution had two goals:
 
 - To ensure Yam was truly a `community owned and governed protocol`.
 - To align interests with the communities of the staked tokens, all of which had potential value and experience to add to the Yam protocol
+
+# Rebasing
+
+`Rebasing` is a mechanism generally used to promote price stability by increasing the supply when the price is above the target price and decrease supply when price is below the target. YAM is currently pegged to 1 yUSD, and uses the `YAM/yUSD Uniswap` pool to generate a TWAP (Time-Weighted Average Price) oracle to determine the necessary change in supply.
+
+- If YAM price is above 1.05 yUSD, YAM supply increases. This is known as a positive rebase.
+- If YAM price is below 0.95 yUSD, YAM supply decreases. This is known as a negative rebase.
+- If YAM price is between 0.95 and 1.05 yUSD, YAM does not rebase.
+
+When a rebase occurs, the `scalingFactor` within the token itself changes, which automatically updates the balance of the tokens. In other words, all YAMs are always rebased.
+
+In the Yam protocol, when a positive rebase occurs, the rebase function also includes a feature to mint 10% of the rebase amount and sell the new YAM to the YAM/yUSD Uniswap pool in exchange for yUSD which is deposited to the governance-controlled treasury. 
 
 # Decentralized Governance
 
