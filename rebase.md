@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-09-30T08:30:45.124Z
+date: 2020-09-30T08:34:13.174Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:24:24.103Z
@@ -42,15 +42,20 @@ To calculate the amount sold to the YAM/yUSD pool, you can multiply the New Supp
 
 *In this example, it would be `4,500,000 * .1 = 450,000 YAM` sold to the treasury and 4,050,000 distributed to each YAM holders wallets.*
 
+# Time-Weighted Average Price
+
+In order to perform the rebase calculation, the Yam protocol uses the `TWAP (Time-Weighted Average Price)` oracle provided by Uniswap V2. 
+
+This measures the average price between each rebase and is used to determine the price used in the rebase calculation.
+
+
 # Supply Scaling Factor
 
-The  amount of YAM in your wallet is calculated by:
-
-`balanceOfUnderlying` x `scalingFactor` where `balanceOfUnderlying` (aka "OG YAM") signifies YAMs without rebasing applied. 
+The  amount of YAM in your wallet is calculated by: `balanceOfUnderlying` x `scalingFactor` where `balanceOfUnderlying` (aka "OG YAM") signifies YAMs without rebase applied. 
 
 In YAM Governance, `votes` are denominated in `balanceOfUnderlying` (aka "OG YAM) instead of YAM balance displayed in your wallet. 
 
-Past and current `scalingFactor` can always be found on Etherscan on each Rebase Transaction. 
+Past and current `scalingFactor` can always be found on Etherscan on each Rebase Transaction log. 
 
 # Scaling Factor History
 
