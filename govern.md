@@ -2,7 +2,7 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-09-30T16:01:43.137Z
+date: 2020-09-30T16:04:24.057Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:25:11.938Z
@@ -16,7 +16,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 YAM launched with `fully decentralized governance` from Day 1 by implementing the [Compound governance module](https://compound.finance/governance). This gives control of the protocol to `YAM tokenholders`, meaning that updates to the protocol and management of the treasury can only be performed with approval from YAM holders.
 
-**Process**:
+## **Process**:
 
 The governance process begins on the [Yam Governance Forum](https://forum.yam.finance/) where proposals are first submitted for discussion. If the community signals its interest and any necessary modifications to the proposal are made, the proposal is submitted to [Snapshot off-chain governance](https://snapshot.page/#/yam/), where tokenholders can vote with their token balances.
 
@@ -24,11 +24,27 @@ If a Snapshot proposal is passed and no code is required to be implemented, the 
 
 If code deployment is required, the code will go to audit if necessary, and then be proposed via `on-chain governance` at which point tokenholders will vote once more to deploy.
 
-**Timing**:
+## **Timing**:
 - Forum Discussion: 1-3 days
 - Snapshot Off-Chain Voting: 3 days
 - On-chain Voting: 2 days
 - Execution timelock: 12 hours
+
+## Delegation
+
+The Compound governance module requires users to opt-in to governance participation. In order for their tokens to be eligible for on-chain voting, tokenholders must delegate to themselves or another party.
+
+You can currently delegate to yourself via the [yam.finance UI](https://yam.finance/governance), and we are working on an interface to delegate to other addresses. You can also delegate via etherscan directly.
+
+## Quorum
+
+Quorum requirements for Yam on-chain proposals and execution are based on `balanceOfUnderlying`, which are YAMs without the rebasing `scalingFactor` applied.
+
+To submit a proposal, a user must have `50,000 BoU YAMs` delegated to their address. This is equivalent to 1% of the initial token supply.
+
+For a proposal to pass and be executed on-chain, it must have `200,000 BoU YAM` votes participating in the vote, equivalent to 4% of the initial token supply. 
+
+*This means a proposal with 198k ‘For’ and 0 ‘Against’ votes would not be executed, while a proposal with 101k ‘For’ votes and 100k ‘Against’ votes would be executed.*
 
 
 
