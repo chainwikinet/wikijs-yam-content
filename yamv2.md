@@ -2,7 +2,7 @@
 title: YAM Reboot
 description: YAMv1 → YAMv2 migration
 published: true
-date: 2020-09-30T16:10:10.367Z
+date: 2020-09-30T16:14:05.117Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-16T03:19:50.546Z
@@ -15,15 +15,15 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 # YAM History
 
-The original YAM protocol was launched August 11, 2020, but had a critical bug that disabled any future governance and control of the treasury. Tokenholders migrated to YAMv2 in order to vote on the parameters for a V3 launch while the protocol was audited. On September 18, 2020, the fully functional YAM protocol was released and V2 tokenholders can now migrate to the new YAM token via the yam.finance UI.
+The original YAM protocol was [launched](https://medium.com/yam-finance/yam-finance-d0ad577250c7) August 11, 2020, but had a critical bug that disabled any future governance and control of the treasury. Tokenholders [migrated to YAMv2](https://medium.com/yam-finance/yam-migration-live-955c63766ab8) in order to [vote on the parameters for a V3 launch](https://medium.com/yam-finance/the-road-to-v3-yamv2-interim-governance-summary-f17ba4a9d1aa) while the protocol was audited. 
+
+On September 18, 2020, the [fully functional YAM protocol was released](https://medium.com/yam-finance/yam-replanting-migration-and-launch-997b4848b8d8) and V2 tokenholders can now migrate to the new YAM token via the yam.finance UI. The roadmap for YAM's near future was shared [here](https://medium.com/@yamfinance/yam-roadmap-update-1f303464336c).
 
 Below are the correct token addresses for each version:
 
-YAM (current): 0x0aacfbec6a24756c20d41914f2caba817c0d8521
-YAMv2 (deprecated, available for migration): 0xAba8cAc6866B83Ae4eec97DD07ED254282f6aD8A
-YAMv1 (deprecated): 0x0e2298e3b3390e3b945a5456fbf59ecc3f55da16
-
-
+- YAM (current): `0x0aacfbec6a24756c20d41914f2caba817c0d8521`
+- YAMv2 (deprecated, available for migration): `0xAba8cAc6866B83Ae4eec97DD07ED254282f6aD8A`
+- YAMv1 (deprecated): `0x0e2298e3b3390e3b945a5456fbf59ecc3f55da16`
 
 # #SAVEYAM Vote Delegation
 
