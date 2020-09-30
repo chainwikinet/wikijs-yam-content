@@ -2,7 +2,7 @@
 title: YAM Roadmap
 description: onward and upward
 published: true
-date: 2020-09-30T15:40:41.966Z
+date: 2020-09-30T15:44:14.283Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-30T15:40:41.966Z
@@ -18,7 +18,9 @@ The below is a roadmap broken out into each of the four key areas of the protoco
 
 This document is to showcase what the current YAM Contributors are working on. If you would like to contribute, propose new initiatives, or otherwise weigh in, please join the discord or visit the forum.
 
-The roadmap below was [published](https://forum.yam.finance/t/yam-roadmap-from-yam-s-contributors/545) on September 30, 2020.
+The roadmap below was [published](https://forum.yam.finance/t/yam-roadmap-from-yam-s-contributors/545) on September 30, 2020. 
+
+To share feedback or ideas on the roadmap, please join the conversation on the [YAM Discourse Forum](https://forum.yam.finance/)!
 
 # Protocol:
 
