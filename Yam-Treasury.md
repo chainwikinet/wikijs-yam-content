@@ -2,7 +2,7 @@
 title: Yam Treasury
 description: on the community treasury 
 published: true
-date: 2020-09-30T08:48:39.865Z
+date: 2020-09-30T08:50:06.320Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T16:21:25.457Z
@@ -38,6 +38,13 @@ There is currently a 10% max slippage amount when the YAM Treasury sells into in
 # Why Does the Treasury use yUSD?
 
 The treasury uses yUSD (yyCRV) as it’s reserve asset because it is a stable asset with high yield. Using a stable asset (as opposed to ETH for example) allows the treasury to both maintain its value over time as well as grow consistently through high yield. 
+
+# MaxSlippage Limit
+
+To mitigate excess market impact of a treasury purchase during rebase, there is a cap on the amount of slippage the protocol will create with its sale, currently set to 10%.
+
+It should be noted that if there is excess YAM in the treasury due to a rebase hitting MaxSlippage on a previous rebase, the treasury will sell YAM up to the MaxSlippage amount, which may be more than it would have minted.
+
 
 # Gitcoin Deposits
 
