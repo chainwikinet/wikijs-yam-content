@@ -2,7 +2,7 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-09-30T15:54:51.926Z
+date: 2020-09-30T15:57:30.956Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:25:11.938Z
@@ -14,13 +14,13 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 # Decentralized Governance
 
-YAM launched with fully decentralized governance from Day 1 by implementing the Compound governance module. This gives control of the protocol to YAM tokenholders, meaning that updates to the protocol and management of the treasury can only be performed with approval from YAM holders.
+YAM launched with `fully decentralized governance` from Day 1 by implementing the [Compound governance module](https://compound.finance/governance). This gives control of the protocol to `YAM tokenholders`, meaning that updates to the protocol and management of the treasury can only be performed with approval from YAM holders.
 
-The governance process begins on the Yam Governance Forum where proposals are first submitted for discussion. If the community signals its interest and any necessary modifications to the proposal are made, the proposal is submitted to Snapshot off-chain governance, where tokenholders can vote with their token balances.
+The governance process begins on the [Yam Governance Forum](https://forum.yam.finance/) where proposals are first submitted for discussion. If the community signals its interest and any necessary modifications to the proposal are made, the proposal is submitted to [Snapshot off-chain governance](https://snapshot.page/#/yam/), where tokenholders can vote with their token balances.
 
 If a Snapshot proposal is passed and no code is required to be implemented, the approved action can be taken.
 
-If code deployment is required, the code will go to audit if necessary, and then be proposed via on-chain governance at which point tokenholders will vote once more to deploy.
+If code deployment is required, the code will go to audit if necessary, and then be proposed via `on-chain governance` at which point tokenholders will vote once more to deploy.
 
 
 
