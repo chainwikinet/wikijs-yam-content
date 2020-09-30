@@ -2,7 +2,7 @@
 title: YAM Protocol Governance
 description: a government of, by, and for YAMs
 published: true
-date: 2020-09-30T15:57:30.956Z
+date: 2020-09-30T16:01:43.137Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:25:11.938Z
@@ -16,11 +16,20 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 YAM launched with `fully decentralized governance` from Day 1 by implementing the [Compound governance module](https://compound.finance/governance). This gives control of the protocol to `YAM tokenholders`, meaning that updates to the protocol and management of the treasury can only be performed with approval from YAM holders.
 
+**Process**:
+
 The governance process begins on the [Yam Governance Forum](https://forum.yam.finance/) where proposals are first submitted for discussion. If the community signals its interest and any necessary modifications to the proposal are made, the proposal is submitted to [Snapshot off-chain governance](https://snapshot.page/#/yam/), where tokenholders can vote with their token balances.
 
 If a Snapshot proposal is passed and no code is required to be implemented, the approved action can be taken.
 
 If code deployment is required, the code will go to audit if necessary, and then be proposed via `on-chain governance` at which point tokenholders will vote once more to deploy.
+
+**Timing**:
+- Forum Discussion: 1-3 days
+- Snapshot Off-Chain Voting: 3 days
+- On-chain Voting: 2 days
+- Execution timelock: 12 hours
+
 
 
 
