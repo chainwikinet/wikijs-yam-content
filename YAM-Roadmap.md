@@ -2,7 +2,7 @@
 title: YAM Roadmap
 description: onward and upward
 published: true
-date: 2020-09-30T15:44:14.283Z
+date: 2020-09-30T15:50:54.449Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-30T15:40:41.966Z
@@ -14,9 +14,9 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 # YAM Roadmap - From YAM’s Contributors
 
-The below is a roadmap broken out into each of the four key areas of the protocol: protocol, treasury, ecosystem/community, and organization. No specific timelines are attached, as the protocol is in its infancy and critical issues may shift. It is ultimately up to the community to decide whether to follow these initiatives, in what order to enact them, and whether to create new initiatives.
+The below is a `roadmap` broken out into each of the four key areas of the protocol: protocol, treasury, ecosystem/community, and organization. No specific timelines are attached, as the protocol is in its infancy and critical issues may shift. It is ultimately up to the community to decide whether to follow these initiatives, in what order to enact them, and whether to create new initiatives.
 
-This document is to showcase what the current YAM Contributors are working on. If you would like to contribute, propose new initiatives, or otherwise weigh in, please join the discord or visit the forum.
+This document is to showcase what the current `YAM Contributors` are working on. If you would like to contribute, propose new initiatives, or otherwise weigh in, please join the discord or visit the forum.
 
 The roadmap below was [published](https://forum.yam.finance/t/yam-roadmap-from-yam-s-contributors/545) on September 30, 2020. 
 
@@ -25,30 +25,30 @@ To share feedback or ideas on the roadmap, please join the conversation on the [
 # Protocol:
 
 ## **LP Governance**
-- Status: Code in Development
-- Priority: High
-- Summary: Currently only YAM tokens held in a wallet are available for governance participation, which means LPs cannot vote in on-chain proposals. We are working on a solution to allow both YAM holders and LP providers who stake in the incentives contract to participate in governance.
-- Next steps:
+- **Status**: Code in Development
+- **Priority**: High
+- **Summary**: Currently only YAM tokens held in a wallet are available for governance participation, which means LPs cannot vote in on-chain proposals. We are working on a solution to allow both YAM holders and LP providers who stake in the incentives contract to participate in governance.
+- **Next steps**:
 -- Complete code production and have core contributors review
 -- Propose solution via governance
 -- Receive audit
 -- On-chain proposal and execution
 
 ## Treasury Purchase Asset + Treasury wrap yUSD
-- Status: Concepting
-- Priority: High
-- Summary: Utilizing `yUSD` as the treasury purchase asset requires significant liquidity incentives due to its limited usage. Pairing with a more common asset would likely lead to deeper organic liquidity, and provide additional flexibility after the treasury purchase. The protocol could then wrap its own yUSD following purchase and/or diversify into other strategies and assets.
-- Next steps:
+- **Status**: Concepting
+- **Priority**: High
+- **Summary**: Utilizing `yUSD` as the treasury purchase asset requires significant liquidity incentives due to its limited usage. Pairing with a more common asset would likely lead to deeper organic liquidity, and provide additional flexibility after the treasury purchase. The protocol could then wrap its own yUSD following purchase and/or diversify into other strategies and assets.
+- **Next steps**:
 -- Gather community feedback and develop consensus around switching the purchase asset
 -- Develop code
 -- Audit
 -- Governance process
 
 ## **Liquidity Incentives**
-- Status: Dependent on other proposals
-- Priority: Medium
-- Summary: If our treasury purchase asset changes, we will need to re-evaluate the current liquidity incentives to ensure we are not overpaying for liquidity.
-- Next steps:
+- **Status**: Dependent on other proposals
+- **Priority**: Medium
+- **Summary**: If our treasury purchase asset changes, we will need to re-evaluate the current liquidity incentives to ensure we are not overpaying for liquidity.
+- **Next steps**:
 -- Determine treasury asset purchase modifications (if any)
 -- Run week long liquidity test on new asset liquidity
 -- Analyze market depth and estimate liquidity needs
@@ -56,29 +56,29 @@ To share feedback or ideas on the roadmap, please join the conversation on the [
 -- Governance and code development
 
 ## RageQuit
-- Status: Concepting
-- Priority: Low
-- Summary: The `RageQuit` function (named originally by [MolochDAO](https://concourseopen.com/blog/moloch-dao-explained/)) would allow YAM holders to redeem some pro rata portion of the treasury. This would create a hard price floor for YAM based on the treasury, as an arbitrage would exist if the treasury ever exceeded market cap. Several adjustments to the basic mechanism have been proposed to align incentives towards desired actions. At current market cap and treasury value, RageQuit is not economically rational, leading to its current low priority.
-- Next steps:
+- **Status**: Concepting
+- **Priority**: Low
+- **Summary**: The `RageQuit` function (named originally by [MolochDAO](https://concourseopen.com/blog/moloch-dao-explained/)) would allow YAM holders to redeem some pro rata portion of the treasury. This would create a hard price floor for YAM based on the treasury, as an arbitrage would exist if the treasury ever exceeded market cap. Several adjustments to the basic mechanism have been proposed to align incentives towards desired actions. At current market cap and treasury value, RageQuit is not economically rational, leading to its current low priority.
+- **Next steps**:
 -- Continue developing concept with community
 -- Track treasury and market cap, as priority increases as they approach equal value
 
 # Treasury
 
 ## Diversify treasury for sustainability/reduce tail risk
-- Status: Concepting
-- Priority: High
-- Summary: While it is tempting to chase the highest yield, the YAM community needs to think carefully of risk, specifically tail-risk, in the assets it holds in the treasury. In our current 100% allocation to yUSD, we are subject to DAI, USDT, USDC, and TUSD risk, yCRV smart contract risk, and yCRV Yearn Vault smart contract risk. The treasury drives most, if not all, the value of the protocol; ensuring no single tail risk can destroy the protocol should be a high priority. Once we have diversified our exposure, we can focus on optimizing risk-adjusted returns.
-- Next steps:
+- **Status**: Concepting
+- **Priority**: High
+- **Summary**: While it is tempting to chase the highest yield, the YAM community needs to think carefully of risk, specifically tail-risk, in the assets it holds in the treasury. In our current 100% allocation to yUSD, we are subject to DAI, USDT, USDC, and TUSD risk, yCRV smart contract risk, and yCRV Yearn Vault smart contract risk. The treasury drives most, if not all, the value of the protocol; ensuring no single tail risk can destroy the protocol should be a high priority. Once we have diversified our exposure, we can focus on optimizing risk-adjusted returns.
+- **Next steps**:
 -- Determine diversification strategy
 -- Develop with community
 -- Governance and code development
 
 ## Bug/Hack Protection Protocol
-- Status: Code Development
-- Priority: Medium/High
-- Summary: The community has been developing a [protection protocol](https://forum.yam.finance/t/rff-yam-crop-protection/361/5) in which underwriters receive a share of all later premiums. The mechanism allows for a bootstrapping period to seed a strong initial protection pool, which will allow later protection buyers to access deep and affordable coverage.
-- Next steps:
+- **Status**: Code Development
+- **Priority**: Medium/High
+- **Summary**: The community has been developing a [protection protocol](https://forum.yam.finance/t/rff-yam-crop-protection/361/5) in which underwriters receive a share of all later premiums. The mechanism allows for a bootstrapping period to seed a strong initial protection pool, which will allow later protection buyers to access deep and affordable coverage.
+- **Next steps**:
 -- Continue code development
 -- Trial system on testnet
 -- Forum discussion and off-chain proposal
@@ -89,38 +89,38 @@ To share feedback or ideas on the roadmap, please join the conversation on the [
 # Ecosystem and Community
 
 ## Governance UI
-- Status: Complete
-- Priority: NA
-- Summary: YAM holders need a governance UI to track and vote on on-chain governance proposals.
-- Next steps:
+- **Status**: Complete
+- **Priority**: NA
+- **Summary**: YAM holders need a governance UI to track and vote on on-chain governance proposals.
+- **Next steps**:
 -- Complete interface
 -- Test
 -- Deploy to production
 
 ## Documentation
-- Status: Near Completion
-- Priority: High
-- Summary: While many high level overviews of the Yam protocol’s functionality exists, there is little information easily available for those who want to go deeper. Documentation would help solve this issue.
-- Next steps:
+- **Status**: Near Completion
+- **Priority**: High
+- **Summary**: While many high level overviews of the Yam protocol’s functionality exists, there is little information easily available for those who want to go deeper. Documentation would help solve this issue.
+- **Next steps**:
 -- Complete Documentation draft
 -- Receive feedback
 -- Deploy to website
 -- Iterate based on feedback
 
 ## Mission, Vision, Values
-- Status: Concepting
-- Priority: Medium
-- Summary: Due to the unique launch and history of the Yam protocol, there has been little work done to clarify the mission and values of the protocol. In order to attract community members aligned with Yam, we must define a vision for the protocol. This is all the more important as the wave of food coins inspired by YAM exemplified opportunistic tendencies, often acted as pump and dumps, and generally were not well-received by the community. YAM has been different in its orientation, community, and actions since the beginning, and that needs to be made clear to the DeFi community.
-- Next Steps:
+- **Status**: Concepting
+- **Priority**: Medium
+- **Summary**: Due to the unique launch and history of the Yam protocol, there has been little work done to clarify the mission and values of the protocol. In order to attract community members aligned with Yam, we must define a vision for the protocol. This is all the more important as the wave of food coins inspired by YAM exemplified opportunistic tendencies, often acted as pump and dumps, and generally were not well-received by the community. YAM has been different in its orientation, community, and actions since the beginning, and that needs to be made clear to the DeFi community.
+- **Next Steps**:
 -- Analyze history and community of Yam
 -- Determine key narratives
 -- Publish a manifesto detailing the vision of Yam and its core values
 
 ## Weekly Governance Calls
-- Status: Concepting
-- Priority: Low
-- Summary: Weekly governance calls are fairly industry standard and will allow for deeper engagement, discussion, and community input on important issues.
-- Next steps:
+- **Status**: Concepting
+- **Priority**: Low
+- **Summary**: Weekly governance calls are fairly industry standard and will allow for deeper engagement, discussion, and community input on important issues.
+- **Next steps**:
 -- Determine a time that works best for our global community
 -- Create infrastructure for publication of call recording
 -- Designate a “Call Leader” who can help organize, create agendas, and disseminate write-ups
@@ -128,20 +128,20 @@ To share feedback or ideas on the roadmap, please join the conversation on the [
 # Organization
 
 ## Compensate protocol and ecosystem contributors
-- Status: Concepting
-- Priority: High
-- Summary: The YAM community has established a history of retroactively compensating its community members, and this should extend to those who have contributed much of their time and effort over the past months. This would be a one-time payment that could set a potential structure to be iterated upon in the future.
-- Next steps:
+- **Status**: Concepting
+- **Priority**: High
+- **Summary**: The YAM community has established a history of retroactively compensating its community members, and this should extend to those who have contributed much of their time and effort over the past months. This would be a one-time payment that could set a potential structure to be iterated upon in the future.
+- **Next steps**:
 -- Develop compensation plan for protocol and ecosystem contributors’ work thus far
 -- Forum discussion
 -- Off-chain proposal
 -- On-chain proposal and execution
 
 ## Hire full time contributors
-- Status: Concepting
-- Priority: Low
-- Summary: While full-time contributors are necessary for the long-term success of the protocol, there are various legal considerations to account for when developing a structure. Rather than rush this process, we should get a full understanding of how to best compensate on-going contributors from both an incentive structure and legal perspective. Community members are clearly willing to work without on-going compensation currently, and by retroactively compensating contributors according to the above, a precedent is set to let them know they will be appropriately compensated.
-- Next steps:
+- **Status**: Concepting
+- **Priority**: Low
+- **Summary**: While full-time contributors are necessary for the long-term success of the protocol, there are various legal considerations to account for when developing a structure. Rather than rush this process, we should get a full understanding of how to best compensate on-going contributors from both an incentive structure and legal perspective. Community members are clearly willing to work without on-going compensation currently, and by retroactively compensating contributors according to the above, a precedent is set to let them know they will be appropriately compensated.
+- **Next steps**:
 -- Understand legal considerations
 -- Develop long-term aligned incentives
 -- Forum discussion and Off-chain proposal
