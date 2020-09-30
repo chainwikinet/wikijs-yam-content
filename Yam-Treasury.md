@@ -2,7 +2,7 @@
 title: Yam Treasury
 description: on the community treasury 
 published: true
-date: 2020-09-28T15:14:43.518Z
+date: 2020-09-30T08:48:39.865Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T16:21:25.457Z
@@ -15,9 +15,11 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 # What is the Treasury?
 
-The treasury is key design element of YAM. The treasury is controlled by YAM holders and funds from it can be applied however YAM Token Holders decide. 
+The Yam protocol treasury is entirely controlled by the YAM tokenholders and can serve a variety of functions. In its simplest form, it can provide a price floor for the value of YAM. It can also be used to generate additional yield for the protocol, allowing the treasury to grow outside of the rebase mechanism. This was the purpose in designating yUSD, a high yield-bearing stablecoin, as the initial reserve asset for the treasury.
 
-Some examples for YAM Treasury use-cases include investing in yield bearing assets, developing protocols that can enrichen the YAM Ecosystem, deploying liquidity into pools for incentivized farming, and disbursements to YAM Token Holders. 
+Ultimately, the Yam treasury functions like a DAO, governed by tokenholders as they see fit.
+
+The treasury can be managed and deployed in a number of ways that YAM holders see fit. This may include diversifying holdings across a number of cryptocurrencies, funding early stage protocols, paying for organizational expenses, seeding liquidity in new Yam financial protocols, and more. 
 
 # How Are Funds Raised for the Treasury?
 
@@ -31,7 +33,7 @@ For example:
 2. If the current supply is 5,000,000, then the change in supply will be 5,000,000 * (9/10) = 4,500,000
 3. 10% * 4,500,000 would be used to purchase yUSD to send to the treasury, while the other 4,050,000 is distributed to all tokenholders.
 
-There is currently a 10% max slippage amount when the YAM Treasury sells into in the YAM/yUSD pool. When the Treasury allocation exceeds this amount, extra Treasury Funds will be deposited in YAM currency instead. 
+There is currently a 10% max slippage amount when the YAM Treasury sells into in the YAM/yUSD pool. When the Treasury allocation exceeds this amount, funds will be deposited in YAM currency instead. 
 
 # Why Does the Treasury use yUSD?
 
@@ -39,7 +41,9 @@ The treasury uses yUSD (yyCRV) as it’s reserve asset because it is a stable as
 
 # Gitcoin Deposits
 
-YAM Governance has decided to redirect 1% of all inflows to the Treasury  to the Gitcoin Grants Wallet, in order to support public goods in the Ethereum ecosystem. Every funding from the YAM treasury that goes to the Gitcoin Grants wallet will be 100% used for public goods funding for the Ethereum ecosystem. 
+During the YAMv2 interim governance period, a proposal was [submitted and approved](https://snapshot.page/#/yamv2/proposal/QmQhFu6miTLtmNyRtCGFXvoFw54VmtkX2chDeUdfFXAtx9) to donate 1% of all treasury purchases to Gitcoin Grants in order to help fund open source public goods for the Ethereum community. 
+
+Every deposit from the YAM treasury to Gitcoin will be 100% used for public goods funding for the Ethereum ecosystem. 
 
 # YAM Treasury Live Tracking
 
