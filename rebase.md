@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-09-30T08:34:13.174Z
+date: 2020-09-30T08:43:11.152Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:24:24.103Z
@@ -42,20 +42,21 @@ To calculate the amount sold to the YAM/yUSD pool, you can multiply the New Supp
 
 *In this example, it would be `4,500,000 * .1 = 450,000 YAM` sold to the treasury and 4,050,000 distributed to each YAM holders wallets.*
 
+For a deeper dive, the best way to understand the `rebase` calculations is to read the `rebase` code in the `YAMRebaser` contract: [0x1fb361f2...](https://etherscan.io/address/0x1fb361f274f316d383b94d761832ab68099a7b00#code)
+
 # Time-Weighted Average Price
 
 In order to perform the rebase calculation, the Yam protocol uses the `TWAP (Time-Weighted Average Price)` oracle provided by Uniswap V2. 
 
 This measures the average price between each rebase and is used to determine the price used in the rebase calculation.
 
-
 # Supply Scaling Factor
 
-The  amount of YAM in your wallet is calculated by: `balanceOfUnderlying` x `scalingFactor` where `balanceOfUnderlying` (aka "OG YAM") signifies YAMs without rebase applied. 
+The  amount of YAM in your wallet is calculated by: `balanceOfUnderlying` x `scalingFactor` where `balanceOfUnderlying` (aka "OG YAM") signifies YAMs without rebasing applied. 
 
 In YAM Governance, `votes` are denominated in `balanceOfUnderlying` (aka "OG YAM) instead of YAM balance displayed in your wallet. 
 
-Past and current `scalingFactor` can always be found on Etherscan on each Rebase Transaction log. 
+Past and current `scalingFactor` can always be found on Etherscan on each Rebase Transaction. 
 
 # Scaling Factor History
 
@@ -127,45 +128,6 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 
 
-# How Rebases Are Calculated
-
-The best way to understand the `rebase` calculations is to read the `rebase` code in the `YAMRebaser` contract: [0x649714bc2fffcb1e65c689b49a10216d4960833d][etherscan-rebaser]
-
-Let's look at examples from this code to determine how to calculate how much YAM supply—and therefore wallets and contract balances—will change when a `rebase` occurs.  (Examples here are for if a `rebase` would have been triggered at 2020-08-14 13:45 Pacific Time)
-
-Docstring description of the `rebase` function:
-```
-* @dev The supply adjustment equals (_totalSupply * DeviationFromTargetRate) / rebaseLag
-* Where DeviationFromTargetRate is (MarketOracleRate - targetRate) / targetRate
-* and targetRate is 1e18
-```
-
-- `targetRate` is the target price of YAMs.  This is 1 yUSD, expressed as `1000000000000000000` (1x10^18) in `21. targetRate` in the [YAMRebaser contract][etherscan-rebaser].
-- `MarketOracleRate` is the YAM TWAP (time-weighted average price) retrieved from the Uniswap YAM:yCRV pool; the current value is displayed by `4. get CurrentTWAP` in the [YAMRebaser contract][etherscan-rebaser].
-- `rebaseLag` is 10, which you can see in `14. rebaseLag` in the [YAMRebaser contract][etherscan-rebaser].
-
-At the time of writing this example, this is how the math worked.  First, we calculate `DeviationFromTargetRate` using `targetRate` and `MarketOracleRate`:
-
-```
- 559423596560698595 MarketOracleRate (current TWAP from Uniswap)
-1000000000000000000 targetRate (target price of 1 yUSD)
-
-DeviationFromTargetRate = (MarketOracleRate - targetRate) / targetRate
-DeviationFromTargetRate = (559423596560698595 - 1000000000000000000) / 1000000000000000000
-                        = -0.4405764034393014
-```
-
-Now we calculate the change in supply due to the rebase using `deviationFromTargetPrice` and `rebaseLag`:
-
-```
-
-change in supply = _totalSupply * DeviationFromTargetRate) / rebaseLag
-change in supply = _totalsupply * (-0.4405764034393014)    / (10)
-change in supply = _totalSupply * (-0.04405764034393014)
-                 = _totalSupply * -4.4%
-```
-
-So if the `rebase` happened at that moment, the total supply—and all YAM balances everywhere in wallets and contracts—would decrease by about 4.4%.
 
 # YAMv1 Rebase 
 
