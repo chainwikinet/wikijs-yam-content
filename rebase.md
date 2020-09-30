@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-09-29T16:26:17.470Z
+date: 2020-09-30T08:30:45.124Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:24:24.103Z
@@ -26,16 +26,31 @@ When a rebase occurs, the `scalingFactor` within the token itself changes, which
 
 In the Yam protocol, when a positive rebase occurs, the rebase function also includes a feature to mint 10% of the rebase amount and sell the new YAM to the `YAM/yUSD Uniswap pool` in exchange for yUSD which is deposited to the governance-controlled treasury.
 
+# Rebase Calculation
+
+To begin calculating the change in supply in a rebase, you can determine how far from the peg the current price is: 
+
+`(Current Price - TargetPrice) / Target Price = Deviation From Peg`
+
+*Example: If Current Price is $10 and Target Price is $1, the deviation from the peg is  (10 - 1) / 1 = 9.*
+
+To smooth the rebasing mechanism, we divide this deviation by 10 rebase periods in the change in supply calculation below. This means if no other buys or sells occur, after 10 rebases, the price target will be met. This is called the `RebaseLag`.
+
+*Example: If the current supply is 5,000,000, then the change in supply will be 5,000,000 * (9/10) = 4,500,000. The new total supply would then be 5M + 4.5M = 9,500,000.*
+
+To calculate the amount sold to the YAM/yUSD pool, you can multiply the New Supply by 10%. 
+
+*In this example, it would be `4,500,000 * .1 = 450,000 YAM` sold to the treasury and 4,050,000 distributed to each YAM holders wallets.*
 
 # Supply Scaling Factor
 
-The balance of YAMs in wallets and contracts is adjusted in the rebasing process by changing a variable called `yamScalingFactor` in the YAM contract.
+The  amount of YAM in your wallet is calculated by:
 
-`yamScalingFactor` is the value by which "OG YAM supply" (5,000,000 YAM originally planned for stakedropping, aka `balanceOfUnderlying` in the YAM contract) is multiplied in order to get the YAM balance value that is displayed in wallets, contracts, and other UIs.  
+`balanceOfUnderlying` x `scalingFactor` where `balanceOfUnderlying` (aka "OG YAM") signifies YAMs without rebasing applied. 
 
-In the contract, this `yamScalingFactor` variable is scaled by x 10**-18: https://etherscan.io/token/0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16#readContract
+In YAM Governance, `votes` are denominated in `balanceOfUnderlying` (aka "OG YAM) instead of YAM balance displayed in your wallet. 
 
-In YAM governance, values such as `votes` are denominated in OG supply instead of in wallet balance.
+Past and current `scalingFactor` can always be found on Etherscan on each Rebase Transaction. 
 
 # Scaling Factor History
 
@@ -48,7 +63,7 @@ YAM rebases happen every 12 hours: 8AM and 8PM UTC.  At this time, the `rebase` 
 
 # YAM Scaling Factor History
 
-| Epoch | datetime                     | Balance Scale Factor | = 1 OG YAM | Change |  Rebase TX               |
+| Epoch | datetime                     | Balance Scaling Factor | = 1 OG YAM | Change |  Rebase TX               |
 |-------|------------------------------|----------------------|------------|--------|--------------------------|
 | 0     | Sep-18-2020 08:00:00 PM +UTC | 1000000000000000000  | 1   YAM    | ----   | ----     
 | 1     | Sep-21-2020 08:00:08 PM +UTC | 2486001344653995715  | 2.5 YAM    | +250%  | [0x9dac453a...][rebase_1] |
