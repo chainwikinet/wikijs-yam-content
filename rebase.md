@@ -2,7 +2,7 @@
 title: YAM Rebasing
 description: 1 YAM = $1 ???
 published: true
-date: 2020-09-30T08:43:11.152Z
+date: 2020-10-01T15:54:56.046Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-13T07:24:24.103Z
@@ -23,6 +23,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 When a rebase occurs, the `scalingFactor` within the token itself changes, which automatically updates the balance of the tokens. In other words, all YAMs are always rebased.
 
 ![rebase_diagram.png](/rebase_diagram.png)
+*Visual rebase guide by [`Will Price`](https://medium.com/yam-finance/the-yam-rebase-mechanism-and-game-theory-b8083ce044dd)*
 
 In the Yam protocol, when a positive rebase occurs, the rebase function also includes a feature to mint 10% of the rebase amount and sell the new YAM to the `YAM/yUSD Uniswap pool` in exchange for yUSD which is deposited to the governance-controlled treasury.
 
